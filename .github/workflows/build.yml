@@ -1,0 +1,19 @@
+name: Build ZMK firmware
+on:
+  workflow_dispatch:
+  pull_request:
+  push:
+    paths:
+      - "config/keymap/**"
+      - "config/*.conf"
+      - "config/*.keymap"
+      - "boards/**"
+      - "build.yaml"
+  schedule:
+    # At 04:00 on Monday
+    - cron: '0 4 * * 1'
+
+jobs:
+  build:
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+    
