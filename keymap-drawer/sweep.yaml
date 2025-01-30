@@ -27,7 +27,7 @@ layers:
   - B
   - N
   - M
-  - {t: ',', h: RALT}
+  - ','
   - {t: ., h: RALT}
   - /
   - {t: '$$mdi:keyboard-space$$', h: NAV}

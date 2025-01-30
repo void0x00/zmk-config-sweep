@@ -1,0 +1,29 @@
+name: Draw ZMK keymaps
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/draw-keymaps.yml"
+      - "keymap-drawer/config.yaml"
+      - "boards/shields/*/*.json"
+      - "config/**"
+  schedule:
+    # At 04:00 on Monday
+    - cron: '0 4 * * 1'
+
+jobs:
+  draw:
+    uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@main
+    permissions:
+      contents: write
+    with:
+      commit_message: "[Draw] ${{ github.event.head_commit.message }}"
+      amend_commit: true
+      fail_on_error: true
+      install_branch: "main"
+      keymap_patterns: "config/*.keymap"
+      config_path: "keymap-drawer/config.yaml"
+      json_path: "boards/shields/${keyboard}"
+      output_folder: "keymap-drawer"
+      destination: "both"
+      draw_args: "rommana:'--ghost-keys 0 9 26 29'"

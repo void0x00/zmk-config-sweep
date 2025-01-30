@@ -29,7 +29,7 @@ layers:
   - B
   - N
   - M
-  - {t: ',', h: RALT}
+  - ','
   - {t: ., h: RALT}
   - /
   - $$mdi:keyboard-return$$
