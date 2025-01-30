@@ -1,0 +1,42 @@
+// shortcut select os
+#ifdef MAC_OS
+// homerow mode
+  #define M_LSH LSHFT
+  #define M_LCT LGUI
+  #define M_LAL LALT
+  #define M_LGU LCTRL
+  #define M_RAL CAPS
+// clipboard shortcut
+  #define C_RDO LG(LS(Z))
+  #define C_PST LG(V)
+  #define C_CPY LG(C)
+  #define C_CUT LG(X)
+  #define C_UND LG(Z)
+// Desktop and tab navigation shortcuts
+  #define W_CLS LG(Q)
+  #define T_CLS LG(W)
+  #define T_RHT LC(TAB)
+  #define T_LFT LC(LS(TAB))
+  #define W_RHT LG(TAB)
+  #define W_LFT LG(LS(TAB))
+#else
+// homerow mode
+  #define M_LSH LSHFT
+  #define M_LCT LCTRL
+  #define M_LAL LALT
+  #define M_LGU LGUI
+  #define M_RAL RALT
+// clipboard shortcut
+  #define C_RDO LC(Y)
+  #define C_PST LC(V)
+  #define C_CPY LC(C)
+  #define C_CUT LC(X)
+  #define C_UND LC(Z)
+// Desktop and tab navigation shortcuts
+  #define W_CLS LA(F4)
+  #define T_CLS LC(F4)
+  #define T_RHT LC(TAB)
+  #define T_LFT LC(LS(TAB))
+  #define W_RHT LA(TAB)
+  #define W_LFT LA(LS(TAB))
+#endif

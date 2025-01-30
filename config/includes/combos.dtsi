@@ -1,0 +1,60 @@
+/* KEY POSITIONS (using keypos_def helpers)
+    ╭─────────────────────┬─────────────────────╮
+    │ LT4 LT3 LT2 LT1 LT0 │ RT0 RT1 RT2 RT3 RT4 │
+╭───╯ LM4 LM3 LM2 LM1 LM0 │ RM0 RM1 RM2 RM3 RM4 ╰───╮
+│ LB5 LB4 LB3 LB2 LB1 LB0 │ RB0 RB1 RB2 RB3 RB4 RB5 │
+╰───────────╮ LH2 LH1 LH0 │ RH0 RH1 RH2 ╭───────────╯
+            ╰─────────────┴─────────────╯       */
+
+#define COMBO(NAME, BINDINGS, KEYPOS, LAYERS, TERM, QUICKTAP, ...) \
+    combo_##NAME { \
+        timeout-ms = <TERM>; \
+        bindings = <BINDINGS>; \
+        key-positions = <KEYPOS>; \
+        layers = <LAYERS>; \
+        require-prior-idle-ms = <QUICKTAP>; \
+        __VA_ARGS__ \
+    };
+
+/ {
+    combos {
+        compatible = "zmk,combos";
+// top
+COMBO(at,     &kp AT,      LT3 LT2,     DEF,          40, 150)
+COMBO(hash,   &kp HASH,    LT2 LT1,     DEF,          40, 150)
+
+// middle
+COMBO(lpar,   &kp LPAR,    LM2 LM1,     DEF,          40, 100)
+COMBO(rpar,   &kp RPAR,    RM1 RM2,     DEF,          40, 100)
+COMBO(lbkt,   &kp LBKT,    LM3 LM2,     DEF,          40, 100)
+COMBO(rbkt,   &kp RBKT,    RM2 RM3,     DEF,          40, 100)
+COMBO(esc,    &kp ESC,     LM4 LM3,     DEF,          40, 150)
+COMBO(del,    &kp DEL,     RM3 RM4,     DEF,          40, 150)
+
+
+// bottom
+COMBO(semi,   &kp SEMI,    RB1 RB2,     DEF,          40, 100)
+COMBO(colon,  &kp COLON,   RB2 RB3,     DEF,          40, 100)
+COMBO(mute,   &kp C_MUTE,  RB4 RB3,     NAV,          40, 100)
+COMBO(plpu,   &kp C_PP,    RB2 RB1,     NAV,          40, 100)
+
+// thumb
+// COMBO(dot,    &kp DOT,     LH1 LH0,     NUM,          40, 150)
+
+// cross
+COMBO(capswd, &caps_word,  LM1 RM1,     DEF,          60, 200)
+COMBO(def,    &to DEF,     LM0 RM0,     NUM NAV,      60, 200)
+COMBO(lock,   &kp LG(L),   LT0 RT0,     DEF,          60, 200)
+COMBO(sleep,  &sleep,      LT1 RT1,     DEF,          60, 200)
+
+// calc +-*/.,RET
+COMBO(plus,   &kp PLUS,    LM2 LM1,     NUM,          40, 100)
+COMBO(minus,  &kp MINUS,   LB2 LB1,     NUM,          40, 100)
+COMBO(star,   &kp STAR,    LM2 LB1,     NUM,          40, 150)
+COMBO(slash,  &kp SLASH,   LB2 LM1,     NUM,          40, 150)
+COMBO(comma,  &kp COMMA,   LM3 LM1,     NUM,          40, 150)
+COMBO(dot,    &kp DOT,     LB3 LB1,     NUM,          40, 150)
+COMBO(ret,    &kp RET,     LM3 LM2 LM1, NUM,          40,  50)
+
+    };
+};
