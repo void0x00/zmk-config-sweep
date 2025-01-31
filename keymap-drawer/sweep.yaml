@@ -105,10 +105,10 @@ layers:
   - {type: held}
   - {t: '$$mdi:chevron-down$$', type: trans}
   NAV:
-  - Alt+$$mdi:keyboard-tab$$
   - Alt+Sft+$$mdi:keyboard-tab$$
-  - Tab Right
+  - Alt+$$mdi:keyboard-tab$$
   - Tab Left
+  - Tab Right
   - {t: Tab Close, h: Win Close}
   - INS
   - HOME

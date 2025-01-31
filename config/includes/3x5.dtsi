@@ -62,7 +62,7 @@
             display-name = "NAV";
             bindings = <LAYER_FROM38( \
 //           ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮   ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮
-              &kp W_RHT,     &kp W_LFT,     &kp T_RHT,     &kp T_LFT,     &ht W_CLS T_CLS,   &kp INS,       &kp HOME,      &kp UP,        &kp END,       &kp PG_UP, \
+              &kp W_LFT,     &kp W_RHT,     &kp T_LFT,     &kp T_RHT,     &ht W_CLS T_CLS,   &kp INS,       &kp HOME,      &kp UP,        &kp END,       &kp PG_UP, \
               &kp M_LGU,     &kp M_LAL,     &kp M_LCT,     &kp M_LSH,     &to NUM,           &kp CAPS,      &kp LEFT,      &kp DOWN,      &kp RIGHT,     &kp PG_DN, \
 &kp ESC,      &kp C_UND,     &kp C_CUT,     &kp C_CPY,     &kp C_PST,     &kp C_RDO,         &kp C_STOP,    &kp C_PREV,    &kp C_NEXT,    &kp C_VOL_DN,  &kp C_VOL_UP,  &kp RET, \
                                             &trans,        &trans,        &trans,            &kp RET,       &kp BSPC,      &kp DEL \
