@@ -22,15 +22,14 @@
 // top
 COMBO(at,     &kp AT,      LT3 LT2,     DEF,          40, 150)
 COMBO(hash,   &kp HASH,    LT2 LT1,     DEF,          40, 150)
+COMBO(esc,    &kp ESC,     LT4 LT3,     DEF,          40, 150)
+COMBO(del,    &kp DEL,     RT3 RT4,     DEF,          40, 150)
 
 // middle
 COMBO(lpar,   &kp LPAR,    LM2 LM1,     DEF,          40, 100)
 COMBO(rpar,   &kp RPAR,    RM1 RM2,     DEF,          40, 100)
 COMBO(lbkt,   &kp LBKT,    LM3 LM2,     DEF,          40, 100)
 COMBO(rbkt,   &kp RBKT,    RM2 RM3,     DEF,          40, 100)
-COMBO(esc,    &kp ESC,     LM4 LM3,     DEF,          40, 150)
-COMBO(del,    &kp DEL,     RM3 RM4,     DEF,          40, 150)
-
 
 // bottom
 COMBO(semi,   &kp SEMI,    RB1 RB2,     DEF,          40, 100)
@@ -48,12 +47,12 @@ COMBO(lock,   &kp LG(L),   LT0 RT0,     DEF,          60, 200)
 COMBO(sleep,  &sleep,      LT1 RT1,     DEF,          60, 200)
 
 // calc +-*/.,RET
-COMBO(plus,   &kp PLUS,    LM2 LM1,     NUM,          40, 100)
-COMBO(minus,  &kp MINUS,   LB2 LB1,     NUM,          40, 100)
-COMBO(star,   &kp STAR,    LM2 LB1,     NUM,          40, 150)
-COMBO(slash,  &kp SLASH,   LB2 LM1,     NUM,          40, 150)
-COMBO(comma,  &kp COMMA,   LM3 LM1,     NUM,          40, 150)
-COMBO(dot,    &kp DOT,     LB3 LB1,     NUM,          40, 150)
+COMBO(plus,   &kp PLUS,    LT2 LT1,     NUM,          40, 100)
+COMBO(minus,  &kp MINUS,   LM2 LM1,     NUM,          40, 100)
+COMBO(star,   &kp STAR,    LT2 LM1,     NUM,          40, 150)
+COMBO(slash,  &kp SLASH,   LM2 LT1,     NUM,          40, 150)
+COMBO(comma,  &kp COMMA,   LB2 LB1,     NUM,          40, 150)
+COMBO(dot,    &kp DOT,     LB3 LB2,     NUM,          40, 150)
 COMBO(ret,    &kp RET,     LM3 LM2 LM1, NUM,          40,  50)
 
     };

@@ -181,6 +181,12 @@ combos:
 - p: [2, 3]
   k: '#'
   l: [DEF]
+- p: [0, 1]
+  k: ESC
+  l: [DEF]
+- p: [8, 9]
+  k: $$mdi:backspace-reverse-outline$$
+  l: [DEF]
 - p: [12, 13]
   k: (
   l: [DEF]
@@ -192,12 +198,6 @@ combos:
   l: [DEF]
 - p: [17, 18]
   k: ']'
-  l: [DEF]
-- p: [10, 11]
-  k: ESC
-  l: [DEF]
-- p: [18, 19]
-  k: $$mdi:backspace-reverse-outline$$
   l: [DEF]
 - p: [26, 27]
   k: ;
@@ -223,22 +223,22 @@ combos:
 - p: [3, 6]
   k: '&sleep'
   l: [DEF]
-- p: [12, 13]
+- p: [2, 3]
   k: +
   l: [NUM]
-- p: [22, 23]
+- p: [12, 13]
   k: '-'
   l: [NUM]
-- p: [12, 23]
+- p: [2, 13]
   k: '*'
   l: [NUM]
-- p: [22, 13]
+- p: [12, 3]
   k: /
   l: [NUM]
-- p: [11, 13]
+- p: [22, 23]
   k: ','
   l: [NUM]
-- p: [21, 23]
+- p: [21, 22]
   k: .
   l: [NUM]
 - p: [11, 12, 13]
