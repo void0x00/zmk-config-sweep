@@ -212,7 +212,7 @@ combos:
   k: $$mdi:play-pause$$
   l: [NAV]
 - p: [13, 16]
-  k: $$mdi:caps-lock$$
+  k: Caps Word
   l: [DEF]
 - p: [14, 15]
   k: {t: DEF, h: '$$mdi:toggle-switch$$'}

@@ -33,9 +33,6 @@
 <svg id="mdi:calculator">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-calculator" viewBox="0 0 24 24"><path d="M7,2H17A2,2 0 0,1 19,4V20A2,2 0 0,1 17,22H7A2,2 0 0,1 5,20V4A2,2 0 0,1 7,2M7,4V8H17V4H7M7,10V12H9V10H7M11,10V12H13V10H11M15,10V12H17V10H15M7,14V16H9V14H7M11,14V16H13V14H11M15,14V16H17V14H15M7,18V20H9V18H7M11,18V20H13V18H11M15,18V20H17V18H15Z" /></svg>
 </svg>
-<svg id="mdi:caps-lock">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-caps-lock" viewBox="0 0 24 24"><path d="M9.96,13.71L12,8.29L14.03,13.72M11.14,6L6.43,18H8.36L9.32,15.43H14.68L15.64,18H17.57L12.86,6H11.14M20,2H4C2.89,2 2,2.89 2,4V20C2,21.11 2.9,22 4,22H20C21.11,22 22,21.11 22,20V4C22,2.89 21.1,2 20,2M20,20H4V4H20V20Z" /></svg>
-</svg>
 <svg id="mdi:chevron-down">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-chevron-down" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg>
 </svg>
@@ -518,7 +515,9 @@ rect.held, rect.combo.held {
 <path d="M336,101 l-121,0" class="combo"/>
 <path d="M336,101 l121,0" class="combo"/>
 <rect rx="6" ry="6" x="322" y="88" width="28" height="26" class="combo"/>
-<use href="#mdi:caps-lock" xlink:href="#mdi:caps-lock" x="329" y="94" height="14" width="14.0" class="combo tap glyph mdi:caps-lock"/>
+<text x="336" y="101" class="combo tap">
+<tspan x="336" dy="-0.6em">Caps</tspan><tspan x="336" dy="1.2em">Word</tspan>
+</text>
 </g>
 <g class="combo combopos-11">
 <path d="M336,27 h-78 a6.0,6.0 0 0 0 -6.0,6.0 v4" class="combo"/>

@@ -83,7 +83,7 @@ parse_config:
   raw_binding_map: 
     '&sys_reset': $$mdi:backup-restore$$
     '&bootloader': $$mdi:progress-download$$
-    '&caps_word': $$mdi:caps-lock$$
+    '&caps_word': Caps Word
     '&alt_tabber': $$mdi:swap-horizontal$$
    
     '&out OUT_BLE': $$mdi:bluetooth$$
