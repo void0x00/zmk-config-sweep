@@ -5,6 +5,7 @@ macros {
             tap-ms = <10>;
             bindings
                 = <&macro_tap &kp LG(X) &kp U &kp S>;
+            display-name = "Windows Sleep";
         )
         ZMK_MACRO(alt_tabber,  // adapted from @moutis on ZMK Discord
             wait-ms = <10>;
@@ -14,6 +15,7 @@ macros {
                      , <&macro_pause_for_release> // wait until key release
                      , <&macro_tap &sk_at RALT>   // start timer to release ALT after timeout
                      , <&macro_release &kp LALT>; // now release the initial hold
+            display-name = "Alt-tabber";
         )
         ZMK_MACRO(hwp_won,
             wait-ms = <10>;
@@ -22,22 +24,25 @@ macros {
                 = <&macro_press &kp LALT>
                 , <&macro_tap &kp N4 &kp N1 &kp N9 &kp N4 &kp N8>
                 , <&macro_release &kp LALT>;
+            display-name = "KRW";
         ) 
-        ZMK_MACRO(hwp_pn,
+        ZMK_MACRO(hwp_p-m,
             wait-ms = <10>;
             tap-ms = <10>;
             bindings
                 = <&macro_press &kp LALT>
                 , <&macro_tap &kp N4 &kp N1 &kp N4 &kp N0 &kp N6>
                 , <&macro_release &kp LALT>;
+            display-name = "plus-minus";
         )
-        ZMK_MACRO(hwp_temp,
+        ZMK_MACRO(hwp_tmp,
             wait-ms = <10>;
             tap-ms = <10>;
             bindings
                 = <&macro_press &kp LALT>
                 , <&macro_tap &kp N4 &kp N1 &kp N4 &kp N1 &kp N7>
                 , <&macro_release &kp LALT>;
+            display-name = "Celsius";
         )
         ZMK_MACRO(hwp_phi,
             wait-ms = <10>;
@@ -46,6 +51,7 @@ macros {
                 = <&macro_press &kp LALT>
                 , <&macro_tap &kp N4 &kp N3 &kp N1 &kp N7 &kp N8>
                 , <&macro_release &kp LALT>;
+            display-name = "O-stroke";
         )
         ZMK_MACRO(hwp_mg,
             wait-ms = <10>;
@@ -54,14 +60,16 @@ macros {
                 = <&macro_press &kp LALT>
                 , <&macro_tap &kp N4 &kp N2 &kp N9 &kp N3 &kp N5>
                 , <&macro_release &kp LALT>;
+            display-name = "Milligram";
         )
-      ZMK_MACRO(hwp_gram,
+      ZMK_MACRO(hwp_grm,
             wait-ms = <10>;
             tap-ms = <10>;
             bindings
                 = <&macro_press &kp LALT>
                 , <&macro_tap &kp N4 &kp N1 &kp N9 &kp N5 &kp N9>
                 , <&macro_release &kp LALT>;
+            display-name = "gram";
         )
         ZMK_MACRO(hwp_kg,
             wait-ms = <10>;
@@ -70,6 +78,7 @@ macros {
                 = <&macro_press &kp LALT>
                 , <&macro_tap &kp N4 &kp N2 &kp N9 &kp N3 &kp N6>
                 , <&macro_release &kp LALT>;
+            display-name = "kilogram";
         )
         ZMK_MACRO(hwp_mm,
             wait-ms = <10>;
@@ -83,7 +92,8 @@ macros {
                 , <&macro_release &kp LALT>
                 , <&macro_press &kp LALT>
                 , <&macro_tap &kp N4 &kp N2 &kp N9 &kp N2 &kp N6>
-                , <&macro_release &kp LALT>;                
+                , <&macro_release &kp LALT>;
+            display-name = "millimeter";
         )
         ZMK_MACRO(hwp_vac,
             wait-ms = <10>;
@@ -98,13 +108,15 @@ macros {
                 , <&macro_release &kp LALT>
                 , <&macro_press &kp LALT>
                 , <&macro_tap &kp N4 &kp N1 &kp N9 &kp N2 &kp N3>
-                , <&macro_release &kp LALT>;                
+                , <&macro_release &kp LALT>;
+            display-name = "VAC";
         )
-        ZMK_MACRO(uni_middot,
+        ZMK_MACRO(uni_mdot,
             wait-ms = <10>;
             tap-ms = <10>;
             bindings
                 = <&macro_tap &kp RALT &kp N0 &kp N0 &kp B &kp N7 &kp LA(X) &kp RALT>;
+            display-name = "Mid-dot";
         )
     };
 };
