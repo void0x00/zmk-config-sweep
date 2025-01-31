@@ -183,8 +183,8 @@ parse_config:
     combo_play:   {align: right}
     combo_plus:   {align: top}
     combo_star:   {align: top}
-    combo_sleep:  {align: top, o:0.15}
-    combo_softof: {align: top, o:0.25}
+    combo_sleep:  {align: top, o: 0.15}
+    combo_softof: {align: top, o: 0.25}
     combo_capswd: {draw_separate: true}
     combo_semi:   {draw_separate: true}
     combo_grave:  {draw_separate: true}

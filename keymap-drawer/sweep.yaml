@@ -125,11 +125,11 @@ layers:
   - $$mdi:arrow-down$$
   - $$mdi:arrow-right$$
   - Page Down
-  - Ctl+Z
+  - $$mdi:undo$$
   - $$mdi:content-cut$$
   - $$mdi:content-copy$$
   - $$mdi:content-paste$$
-  - Ctl+Y
+  - $$mdi:redo$$
   - STOP
   - $$mdi:skip-backward$$
   - $$mdi:skip-forward$$
@@ -184,24 +184,31 @@ combos:
 - p: [0, 1]
   k: ESC
   l: [DEF]
+  draw_separate: true
 - p: [8, 9]
   k: $$mdi:backspace-reverse-outline$$
   l: [DEF]
+  draw_separate: true
 - p: [12, 13]
   k: (
   l: [DEF]
+  draw_separate: true
 - p: [16, 17]
   k: )
   l: [DEF]
+  draw_separate: true
 - p: [11, 12]
   k: '['
   l: [DEF]
+  draw_separate: true
 - p: [17, 18]
   k: ']'
   l: [DEF]
+  draw_separate: true
 - p: [26, 27]
   k: ;
   l: [DEF]
+  draw_separate: true
 - p: [27, 28]
   k: ':'
   l: [DEF]
@@ -214,27 +221,35 @@ combos:
 - p: [13, 16]
   k: $$mdi:caps-lock$$
   l: [DEF]
+  draw_separate: true
 - p: [14, 15]
   k: {t: DEF, h: '$$mdi:toggle-switch$$'}
   l: [NUM, NAV]
 - p: [4, 5]
   k: Gui+L
   l: [DEF]
+  draw_separate: true
 - p: [3, 6]
   k: '&sleep'
   l: [DEF]
+  a: top
+  o: 0.15
 - p: [2, 7]
   k: $$mdi:power$$
   l: [DEF]
+  a: top
+  o: 0.25
 - p: [2, 3]
   k: +
   l: [NUM]
+  a: top
 - p: [12, 13]
   k: '-'
   l: [NUM]
 - p: [2, 13]
   k: '*'
   l: [NUM]
+  a: top
 - p: [12, 3]
   k: /
   l: [NUM]
@@ -247,3 +262,4 @@ combos:
 - p: [11, 12, 13]
   k: $$mdi:keyboard-return$$
   l: [NUM]
+  draw_separate: true
