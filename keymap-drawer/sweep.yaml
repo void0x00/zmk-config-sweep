@@ -60,7 +60,7 @@ layers:
   - '2'
   - '3'
   - \
-  - '&hwp_p-m'
+  - '&hwp_pm'
   - '&hwp_tmp'
   - '&hwp_won'
   - '&hwp_phi'
