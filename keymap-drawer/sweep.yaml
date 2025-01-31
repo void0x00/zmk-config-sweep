@@ -253,4 +253,4 @@ combos:
 - p: [11, 12, 13]
   k: $$mdi:keyboard-return$$
   l: [NUM]
-  a: bottom
+  o: -0.2

@@ -788,11 +788,10 @@ rect.held, rect.combo.held {
 <text x="182" y="157" class="combo tap">.</text>
 </g>
 <g class="combo combopos-7">
-<path d="M210,147 h-56 a6.0,6.0 0 0 1 -6.0,-6.0 v-4" class="combo"/>
-<path d="M210,147 l1,-44" class="combo"/>
-<path d="M210,147 h55 a6.0,6.0 0 0 0 6.0,-6.0 v-10" class="combo"/>
-<rect rx="6" ry="6" x="196" y="134" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="203" y="140" height="14" width="14.0" class="combo tap glyph mdi:keyboard-return"/>
+<path d="M210,104 l-43,9" class="combo"/>
+<path d="M210,104 l41,5" class="combo"/>
+<rect rx="6" ry="6" x="196" y="91" width="28" height="26" class="combo"/>
+<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="203" y="97" height="14" width="14.0" class="combo tap glyph mdi:keyboard-return"/>
 </g>
 </g>
 </g>
