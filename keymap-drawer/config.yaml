@@ -188,9 +188,15 @@ parse_config:
     '&hwp_vac': ㅎVAC
     '&hwp_mm': ㅎmm
     '&uni_mdot': Mid-dot
+    '&sleep': sleep
 
     
-
+  zmk_combos:
+    combo_slash:  {align: left}
+    combo_star:   {align: right}
+    combo_sleep:  {align: top, o: 0.5}
+    combo_softof: {align: top, o: 0.75}
+    combo_lock:   {align: top}
 
       
   zmk_keycode_map:

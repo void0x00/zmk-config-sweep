@@ -220,12 +220,17 @@ combos:
 - p: [4, 5]
   k: Gui+L
   l: [DEF]
+  a: top
 - p: [3, 6]
-  k: '&sleep'
+  k: sleep
   l: [DEF]
+  a: top
+  o: 0.5
 - p: [2, 7]
   k: $$mdi:power$$
   l: [DEF]
+  a: top
+  o: 0.75
 - p: [2, 3]
   k: +
   l: [NUM]
@@ -235,9 +240,11 @@ combos:
 - p: [2, 13]
   k: '*'
   l: [NUM]
+  a: right
 - p: [12, 3]
   k: /
   l: [NUM]
+  a: left
 - p: [22, 23]
   k: ','
   l: [NUM]
