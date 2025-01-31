@@ -248,10 +248,10 @@ combos:
   a: top
   o: 0.25
 - p: [2, 7]
-  k: $$mdi:power$$
+  k: Soft-off
   l: [DEF]
   a: top
-  o: 0.5
+  o: 0.4
 - p: [2, 3]
   k: +
   l: [NUM]
@@ -261,11 +261,10 @@ combos:
 - p: [2, 13]
   k: '*'
   l: [NUM]
-  a: left
+  a: right
 - p: [12, 3]
   k: /
   l: [NUM]
-  a: right
 - p: [23, 24]
   k: ','
   l: [NUM]

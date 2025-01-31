@@ -83,7 +83,7 @@ parse_config:
   raw_binding_map: 
     '&sys_reset': $$mdi:backup-restore$$
     '&bootloader': $$mdi:progress-download$$
-    '&soft_off': $$mdi:power$$
+    '&soft_off': Soft-off
     '&caps_word': $$mdi:caps-lock$$
     '&alt_tabber': $$mdi:swap-horizontal$$
    
@@ -188,10 +188,9 @@ parse_config:
 
     
   zmk_combos:
-    combo_slash:  {align: right}
-    combo_star:   {align: left}
+    combo_star:   {align: right}
     combo_sleep:  {align: top, o: 0.25}
-    combo_softof: {align: top, o: 0.50}
+    combo_softof: {align: top, o: 0.40}
     combo_lock:   {align: top}
 
       
