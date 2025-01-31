@@ -69,6 +69,7 @@ draw_config:
   glyph_hold_size: 8
   glyph_shifted_size: 8
   
+
 parse_config:
   zmk_remove_keycode_prefix: ["DE_"]
     
@@ -77,7 +78,8 @@ parse_config:
   trans_legend:
     tap: $$mdi:chevron-down$$
     type: trans
-  
+
+
   raw_binding_map: 
     '&sys_reset': $$mdi:backup-restore$$
     '&bootloader': $$mdi:progress-download$$
@@ -89,37 +91,7 @@ parse_config:
     '&caps_word': $$mdi:caps-lock$$
     '&mt LA(F4) LC(W)': $$mdi:close-box-outline$$
     '&alt_tabber': $$mdi:swap-horizontal$$
-    '&kns_lock': $$mdi:apple-keyboard-caps$$
-    '&dgrv_macro': '``'
-    '&brc_macro': '[]'
-    '&par_macro': '()'
-    '&bkt_macro': '{}'
-    '&lgt_macro': '<>'
-
-    '&ad_u': 'U'
-
-    '&mt LS(LC(V)) LC(V)': $$mdi:content-paste$$
-      
-    '&td_sqt_dqt':
-      tap: "'"
-      shifted: '"'
-
-    '&kp DE_COMMA':
-      tap: ','
-      shifted: ';'
-
-    '&ad_comma':
-      tap: ','
-      shifted: ';'
-    
-    '&kp DE_DOT':
-      tap: '.'
-      shifted: ':'
-
-    '&qu 0': 'QU'
-
-    '&ad_e 0': 'E'
-    
+   
     '&out OUT_BLE': $$mdi:bluetooth$$
     '&out OUT_USB': $$mdi:usb$$
     '&out OUT_TOG':
@@ -202,86 +174,31 @@ parse_config:
       shifted: $$mdi:arrow-right-thin$$
       type: text_with_symbol
 
-    '&hml_m LALT MB4':
-      tap: $$mdi:cursor-default-click-outline$$
-      shifted: 4
-      hold: 'ALT'
-      type: text_with_symbol
-
-    '&hml_m LCTRL MB5':
-      tap: $$mdi:cursor-default-click-outline$$
-      shifted: 5
-      hold: $$mdi:apple-keyboard-control$$
-      type: text_with_symbol
-
-    '&tb_mo_scroll':
-      tap: $$mdi:billiards$$
-      shifted: $$mdi:arrow-up-down$$
-      type: text_with_symbol
-
-    '&tb_tg_scroll':
-      tap: $$mdi:billiards$$
-      shifted: $$mdi:arrow-up-down$$
-      hold: $$mdi:toggle-switch$$
-      type: text_with_symbol
-
-    '&tbs_mt 0 0':
-      tap: $$mdi:billiards$$
-      shifted: $$mdi:arrow-up-down$$
-      hold: $$mdi:toggle-switch$$
-      type: text_with_symbol
-
-    '&tb_bootloader':
-      tap: $$mdi:billiards$$
-      shifted: $$mdi:progress-download$$
-      type: text_with_symbol
-
-    '&tb_cyc_dpi':
-      tap: $$mdi:billiards$$
-      shifted: $$mdi:speedometer$$
-      type: text_with_symbol
-
-    '&ind_con':
-      tap: $$mdi:bluetooth$$
-      shifted: $$mdi:help-circle-outline$$
-      type: text_with_symbol
-
-    '&pp_n':
-      tap: $$mdi:play-pause$$
-      shifted: $$mdi:skip-forward$$
-
-    '&close_reopen':
-      tap: $$mdi:close-box-outline$$
-      shifted: $$mdi:open-in-new$$
-
-    '&sel_word':
-      tap: $$mdi:select-compare$$
-      shifted: $$mdi:arrow-right-thin$$
-      type: text_with_symbol
-
-    '&r_mods':
-      tap: $$mdi:keyboard-variant$$
-      shifted: $$mdi:arrow-up-bold$$
-      type: text_with_symbol
-
-    '&ind_bat': $$mdi:battery-heart-outline$$
     
   zmk_combos:
-    combo_bl:
-      align: top
-      offset: 2.4
-    combo_par:
-      draw_separate: true
-    combo_bkt:
-      draw_separate: true
-    combo_int:
-      draw_separate: true
-    combo_cw:
-      draw_separate: true
-    combo_brc:
-      draw_separate: true
-    combo_tab:
-      draw_separate: true
+    combo_tab:    {align: top, o: 0.15}
+    combo_del:    {align: top, o: 0.15}
+    combo_f12:    {align: bottom}
+    combo_btclr:  {align: bottom}
+    combo_play:   {align: right}
+    combo_plus:   {align: top}
+    combo_star:   {align: top}
+    combo_sleep:  {align: top, o:0.15}
+    combo_softof: {align: top, o:0.25}
+    combo_capswd: {draw_separate: true}
+    combo_semi:   {draw_separate: true}
+    combo_grave:  {draw_separate: true}
+    combo_lpar:   {draw_separate: true}
+    combo_rpar:   {draw_separate: true}
+    combo_lbkt:   {draw_separate: true}
+    combo_rbkt:   {draw_separate: true}
+    combo_tab:    {draw_separate: true}
+    combo_del:    {draw_separate: true}
+    combo_esc:    {draw_separate: true}
+    combo_ret:    {draw_separate: true}
+    combo_lock:   {draw_separate: true}
+    combo_bslh:   {draw_separate: true}
+    combo_slsh:   {draw_separate: true}
       
   zmk_keycode_map:
     LC(BSPC): $$mdi:backspace$$
@@ -305,8 +222,8 @@ parse_config:
     LC(V): $$mdi:content-paste$$
     LS(DEL): $$mdi:content-cut$$
     LC(X): $$mdi:content-cut$$
-    LC(DE_Z): $$mdi:undo$$
-    LC(DE_Y): $$mdi:redo$$
+    LC(Z): $$mdi:undo$$
+    LC(Y): $$mdi:redo$$
     LC(LS(DE_Z)): $$mdi:redo$$
 
     LC(A): $$mdi:select-all$$
@@ -388,19 +305,6 @@ parse_config:
     
     PG_UP: Page Up
     PG_DN: Page Down
-
-    SECT: '§'
-    DEG: '°'
-    EURO: '€'
-
-    A_UMLAUT: 'Ä'
-    AE: 'Ä'
-    U_UMLAUT: 'Ü'
-    UE: 'Ü'
-    O_UMLAUT: 'Ö'
-    OE: 'Ö'
-    SZ: 'ß'
-    ACUTE: '´'
     
     # default
     EXCLAMATION: '!'
