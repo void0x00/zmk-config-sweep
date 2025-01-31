@@ -171,9 +171,9 @@ parse_config:
     '&kp LA(LS(TAB))': TaskSW ←
     '&kp LA(F4)': Win Close
     '&kp LC(F4)': Tab Close
-    '&kp LG(L)': $$mdi:lock-outline$$
-    '&sleep': $$mdi:power-sleep$$
-    '&soft_off': $$mdi:Battery-Lock$$
+    '&kp LG(L)': Lock
+    '&sleep': Sleep
+    '&soft_off': BAT Save
     '&hwp_won': ㅎ₩
     '&hwp_tmp': ㅎ℃
     '&hwp_pm': ㅎ±

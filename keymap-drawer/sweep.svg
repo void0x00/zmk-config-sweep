@@ -63,9 +63,6 @@
 <svg id="mdi:keyboard-tab">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-keyboard-tab" viewBox="0 0 24 24"><path d="M20,18H22V6H20M11.59,7.41L15.17,11H1V13H15.17L11.59,16.58L13,18L19,12L13,6L11.59,7.41Z" /></svg>
 </svg>
-<svg id="mdi:lock-outline">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-lock-outline" viewBox="0 0 24 24"><path d="M12,17C10.89,17 10,16.1 10,15C10,13.89 10.89,13 12,13A2,2 0 0,1 14,15A2,2 0 0,1 12,17M18,20V10H6V20H18M18,8A2,2 0 0,1 20,10V20A2,2 0 0,1 18,22H6C4.89,22 4,21.1 4,20V10C4,8.89 4.89,8 6,8H7V6A5,5 0 0,1 12,1A5,5 0 0,1 17,6V8H18M12,3A3,3 0 0,0 9,6V8H15V6A3,3 0 0,0 12,3Z" /></svg>
-</svg>
 <svg id="mdi:mouse-outline">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-mouse-outline" viewBox="0 0 24 24"><path d="M13 9V1.07C13.7 1.16 14.37 1.33 15 1.59C17.33 2.53 19.11 4.53 19.75 7C19.91 7.64 20 8.31 20 9H13M17.66 7C17.18 5.65 16.23 4.5 15 3.81V7H17.66M11 9V1.07C10.3 1.16 9.63 1.33 9 1.59C6.67 2.53 4.89 4.53 4.25 7C4.09 7.64 4 8.31 4 9H11M6.34 7C6.82 5.65 7.78 4.5 9 3.81V7H6.34M6 15V13H18V15C18 16.59 17.37 18.12 16.24 19.24C15.12 20.37 13.59 21 12 21C10.41 21 8.88 20.37 7.76 19.24C6.63 18.12 6 16.59 6 15M4 15C4 17.12 4.84 19.16 6.34 20.66C7.84 22.16 9.88 23 12 23C14.12 23 16.16 22.16 17.66 20.66C19.16 19.16 20 17.12 20 15V11H4V15Z" /></svg>
 </svg>
@@ -74,9 +71,6 @@
 </svg>
 <svg id="mdi:play-pause">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-play-pause" viewBox="0 0 24 24"><path d="M3,5V19L11,12M13,19H16V5H13M18,5V19H21V5" /></svg>
-</svg>
-<svg id="mdi:power-sleep">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-power-sleep" viewBox="0 0 24 24"><path d="M18.73,18C15.4,21.69 9.71,22 6,18.64C2.33,15.31 2.04,9.62 5.37,5.93C6.9,4.25 9,3.2 11.27,3C7.96,6.7 8.27,12.39 12,15.71C13.63,17.19 15.78,18 18,18C18.25,18 18.5,18 18.73,18Z" /></svg>
 </svg>
 <svg id="mdi:redo">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-redo" viewBox="0 0 24 24"><path d="M18.4,10.6C16.55,9 14.15,8 11.5,8C6.85,8 2.92,11.03 1.54,15.22L3.9,16C4.95,12.81 7.95,10.5 11.5,10.5C13.45,10.5 15.23,11.22 16.62,12.38L13,16H22V7L18.4,10.6Z" /></svg>
@@ -530,19 +524,21 @@ rect.held, rect.combo.held {
 <path d="M336,27 h-78 a6.0,6.0 0 0 0 -6.0,6.0 v4" class="combo"/>
 <path d="M336,27 h78 a6.0,6.0 0 0 1 6.0,6.0 v4" class="combo"/>
 <rect rx="6" ry="6" x="322" y="14" width="28" height="26" class="combo"/>
-<use href="#mdi:lock-outline" xlink:href="#mdi:lock-outline" x="329" y="20" height="14" width="14.0" class="combo tap glyph mdi:lock-outline"/>
+<text x="336" y="27" class="combo tap">Lock</text>
 </g>
 <g class="combo combopos-12">
 <path d="M336,2 h-134 a6.0,6.0 0 0 0 -6.0,6.0 v18" class="combo"/>
 <path d="M336,2 h134 a6.0,6.0 0 0 1 6.0,6.0 v18" class="combo"/>
 <rect rx="6" ry="6" x="322" y="-11" width="28" height="26" class="combo"/>
-<use href="#mdi:power-sleep" xlink:href="#mdi:power-sleep" x="329" y="-5" height="14" width="14.0" class="combo tap glyph mdi:power-sleep"/>
+<text x="336" y="2" class="combo tap">Sleep</text>
 </g>
 <g class="combo combopos-13">
 <path d="M336,-23 h-190 a6.0,6.0 0 0 0 -6.0,6.0 v27" class="combo"/>
 <path d="M336,-23 h190 a6.0,6.0 0 0 1 6.0,6.0 v27" class="combo"/>
 <rect rx="6" ry="6" x="322" y="-36" width="28" height="26" class="combo"/>
-<text x="336" y="-23" class="combo tap">KB🌙</text>
+<text x="336" y="-23" class="combo tap">
+<tspan x="336" dy="-0.6em">BAT</tspan><tspan x="336" dy="1.2em">Save</tspan>
+</text>
 </g>
 </g>
 </g>

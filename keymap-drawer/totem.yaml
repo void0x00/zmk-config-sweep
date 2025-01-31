@@ -239,16 +239,16 @@ combos:
   k: {t: DEF, h: '$$mdi:toggle-switch$$'}
   l: [NUM, NAV]
 - p: [4, 5]
-  k: $$mdi:lock-outline$$
+  k: Lock
   l: [DEF]
   a: top
 - p: [3, 6]
-  k: $$mdi:power-sleep$$
+  k: Sleep
   l: [DEF]
   a: top
   o: 0.25
 - p: [2, 7]
-  k: KB🌙
+  k: BAT Save
   l: [DEF]
   a: top
   o: 0.4
