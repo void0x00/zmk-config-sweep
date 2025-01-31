@@ -83,7 +83,6 @@ parse_config:
   raw_binding_map: 
     '&sys_reset': $$mdi:backup-restore$$
     '&bootloader': $$mdi:progress-download$$
-    '&soft_off': KB-off
     '&caps_word': $$mdi:caps-lock$$
     '&alt_tabber': $$mdi:swap-horizontal$$
    
@@ -168,10 +167,13 @@ parse_config:
       
     '&kp LC(TAB)': Tab Right
     '&kp LC(LS(TAB))': Tab Left
+    '&kp LA(TAB)': Task SW$$mdi:arrow-right$$
+    '&kp LA(LS(TAB))': TaskSW $$mdi:arrow-left$$
     '&kp LA(F4)': Win Close
     '&kp LC(F4)': Tab Close
-    '&kp LS(TAB)': Win Prev
     '&kp LG(L)': $$mdi:lock-outline$$
+    '&sleep': $$mdi:power-sleep$$
+    '&soft_off': KB$$mdi:power-sleep$$
     '&hwp_won': ㅎ₩
     '&hwp_tmp': ㅎ℃
     '&hwp_pm': ㅎ±
@@ -182,7 +184,6 @@ parse_config:
     '&hwp_vac': ㅎVAC
     '&hwp_mm': ㅎmm
     '&uni_mdot': Mid-dot
-    '&sleep': $$mdi:power-sleep$$
 
     
   zmk_combos:
@@ -208,7 +209,8 @@ parse_config:
     LC(W): $$mdi:close-box-outline$$
     LA(F4)': $$mdi:close-box-outline$$
     
-    LALT: ALT
+    LALT: Alt
+    RALT: RAlt
     
     SPACE: $$mdi:keyboard-space$$
     # ESC: $$mdi:keyboard-esc$$
@@ -225,19 +227,16 @@ parse_config:
     LCTRL: $$mdi:apple-keyboard-control$$
     LEFT_CONTROL: $$mdi:apple-keyboard-control$$
     
-    RCTRL: $$mdi:apple-keyboard-control$$
-    RIGHT_CONTROL: $$mdi:apple-keyboard-control$$
+    RCTRL: RCtrl
     
-    LSHFT: $$mdi:apple-keyboard-shift$$
-    LSHIFT: $$mdi:apple-keyboard-shift$$
-    LEFT_SHIFT: $$mdi:apple-keyboard-shift$$
+    LSHFT:  Shift
+    LSHIFT:  Shift
     
-    RSHFT: $$mdi:apple-keyboard-shift$$
-    RSHIFT: $$mdi:apple-keyboard-shift$$
-    RIGHT_SHIFT: $$mdi:apple-keyboard-shift$$
+    RSHFT: Shift
+    RSHIFT: Shift
 
-    LGUI: $$mdi:microsoft-windows$$
-    RGUI: $$mdi:microsoft-windows$$
+    LGUI: Gui
+    RGUI: Gui
     
     TAB: $$mdi:keyboard-tab$$
 

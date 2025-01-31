@@ -10,16 +10,16 @@ layers:
   - I
   - O
   - P
-  - {t: A, h: '$$mdi:microsoft-windows$$'}
-  - {t: S, h: ALT}
+  - {t: A, h: Gui}
+  - {t: S, h: Alt}
   - {t: D, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: F, h: Shift}
   - G
   - H
-  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: J, h: Shift}
   - {t: K, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: L, h: ALT}
-  - {t: '''', h: '$$mdi:microsoft-windows$$'}
+  - {t: L, h: Alt}
+  - {t: '''', h: Gui}
   - Z
   - X
   - C
@@ -28,7 +28,7 @@ layers:
   - N
   - M
   - ','
-  - {t: ., h: RALT}
+  - {t: ., h: RAlt}
   - /
   - {t: '$$mdi:keyboard-space$$', h: NAV}
   - {t: '$$mdi:keyboard-tab$$', h: MSE}
@@ -80,10 +80,10 @@ layers:
   - F8
   - F9
   - F12
-  - {t: ':', h: '$$mdi:microsoft-windows$$'}
-  - {t: $, h: ALT}
+  - {t: ':', h: Gui}
+  - {t: $, h: Alt}
   - {t: '%', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: ^, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: ^, h: Shift}
   - +
   - $$mdi:arrow-vertical-lock$$
   - F4
@@ -105,8 +105,8 @@ layers:
   - {type: held}
   - {t: '$$mdi:chevron-down$$', type: trans}
   NAV:
-  - Alt+Sft+$$mdi:keyboard-tab$$
-  - Alt+$$mdi:keyboard-tab$$
+  - TaskSW $$mdi:arrow-left$$
+  - Task SW$$mdi:arrow-right$$
   - Tab Left
   - Tab Right
   - {t: Tab Close, h: Win Close}
@@ -115,10 +115,10 @@ layers:
   - $$mdi:arrow-up$$
   - END
   - Page Up
-  - $$mdi:microsoft-windows$$
-  - ALT
+  - Gui
+  - Alt
   - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-shift$$
+  - Shift
   - {t: NUM, h: '$$mdi:toggle-switch$$'}
   - $$mdi:apple-keyboard-caps$$
   - $$mdi:arrow-left$$
@@ -227,7 +227,7 @@ combos:
   a: top
   o: 0.25
 - p: [2, 7]
-  k: KB-off
+  k: KB$$mdi:power-sleep$$
   l: [DEF]
   a: top
   o: 0.4
