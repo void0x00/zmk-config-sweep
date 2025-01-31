@@ -13,12 +13,12 @@ layers:
   - P
   - {t: A, h: Gui}
   - {t: S, h: Alt}
-  - {t: D, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: D, h: Ctrl}
   - {t: F, h: Shift}
   - G
   - H
   - {t: J, h: Shift}
-  - {t: K, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: K, h: Ctrl}
   - {t: L, h: Alt}
   - {t: '''', h: Gui}
   - ESC
@@ -84,17 +84,17 @@ layers:
   - '*'
   - (
   - '}'
-  - $$mdi:monitor-screenshot$$
+  - Print Scrn
   - F7
   - F8
   - F9
   - F12
   - {t: ':', h: Gui}
   - {t: $, h: Alt}
-  - {t: '%', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '%', h: Ctrl}
   - {t: ^, h: Shift}
   - +
-  - $$mdi:arrow-vertical-lock$$
+  - SLCK
   - F4
   - F5
   - F6
@@ -118,8 +118,8 @@ layers:
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   NAV:
-  - TaskSW $$mdi:arrow-left$$
-  - Task SW$$mdi:arrow-right$$
+  - TaskSW ←
+  - TaskSW →
   - Tab Left
   - Tab Right
   - {t: Tab Close, h: Win Close}
@@ -130,10 +130,10 @@ layers:
   - Page Up
   - Gui
   - Alt
-  - $$mdi:apple-keyboard-control$$
+  - Ctrl
   - Shift
   - {t: NUM, h: '$$mdi:toggle-switch$$'}
-  - $$mdi:apple-keyboard-caps$$
+  - Caps Lock
   - $$mdi:arrow-left$$
   - $$mdi:arrow-down$$
   - $$mdi:arrow-right$$
@@ -248,7 +248,7 @@ combos:
   a: top
   o: 0.25
 - p: [2, 7]
-  k: KB$$mdi:power-sleep$$
+  k: KB $$mdi:power-sleep$$
   l: [DEF]
   a: top
   o: 0.4

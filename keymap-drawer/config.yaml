@@ -167,13 +167,13 @@ parse_config:
       
     '&kp LC(TAB)': Tab Right
     '&kp LC(LS(TAB))': Tab Left
-    '&kp LA(TAB)': Task SW$$mdi:arrow-right$$
-    '&kp LA(LS(TAB))': TaskSW $$mdi:arrow-left$$
+    '&kp LA(TAB)': TaskSW →
+    '&kp LA(LS(TAB))': TaskSW ←
     '&kp LA(F4)': Win Close
     '&kp LC(F4)': Tab Close
     '&kp LG(L)': $$mdi:lock-outline$$
     '&sleep': $$mdi:power-sleep$$
-    '&soft_off': KB$$mdi:power-sleep$$
+    '&soft_off': KB $$mdi:power-sleep$$
     '&hwp_won': ㅎ₩
     '&hwp_tmp': ㅎ℃
     '&hwp_pm': ㅎ±
@@ -224,9 +224,7 @@ parse_config:
     DELETE: $$mdi:backspace-reverse-outline$$
     DEL: $$mdi:backspace-reverse-outline$$
     
-    LCTRL: $$mdi:apple-keyboard-control$$
-    LEFT_CONTROL: $$mdi:apple-keyboard-control$$
-    
+    LCTRL: Ctrl
     RCTRL: RCtrl
     
     LSHFT:  Shift
@@ -240,17 +238,14 @@ parse_config:
     
     TAB: $$mdi:keyboard-tab$$
 
-    CLCK: $$mdi:apple-keyboard-caps$$
-    CAPS: $$mdi:apple-keyboard-caps$$
-    CAPSLOCK: $$mdi:apple-keyboard-caps$$
+    CAPS: Caps Lock
+    CAPSLOCK: Caps Lock
 
-    SCROLLLOCK: $$mdi:arrow-vertical-lock$$
-    SLCK: $$mdi:arrow-vertical-lock$$
-    SCLK: $$mdi:arrow-vertical-lock$$
+    SCROLLLOCK: Scroll Lock
 
     KP_NLCK: $$mdi:numeric-off$$
 
-    PSCRN: $$mdi:monitor-screenshot$$
+    PSCRN: Print Scrn
     PAUSE_BREAK: Pause Break
     
     C_PP: $$mdi:play-pause$$
