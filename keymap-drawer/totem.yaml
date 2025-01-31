@@ -66,7 +66,7 @@ layers:
   - '2'
   - '3'
   - \
-  - '&hwp_pm'
+  - ㅎ±
   - ㅎ℃
   - ㅎ₩
   - ㅎØ
@@ -208,8 +208,6 @@ combos:
 - p: [8, 9]
   k: $$mdi:backspace-reverse-outline$$
   l: [DEF]
-  a: top
-  o: 0.15
 - p: [12, 13]
   k: (
   l: [DEF]
@@ -246,13 +244,9 @@ combos:
 - p: [3, 6]
   k: '&sleep'
   l: [DEF]
-  a: top
-  o: 0.15
 - p: [2, 7]
   k: $$mdi:power$$
   l: [DEF]
-  a: top
-  o: 0.25
 - p: [2, 3]
   k: +
   l: [NUM]
@@ -262,11 +256,9 @@ combos:
 - p: [2, 13]
   k: '*'
   l: [NUM]
-  a: right
 - p: [12, 3]
   k: /
   l: [NUM]
-  a: left
 - p: [23, 24]
   k: ','
   l: [NUM]

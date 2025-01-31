@@ -180,7 +180,7 @@ parse_config:
     '&kp LS(TAB)': Win Prev
     '&hwp_won': ㅎ₩
     '&hwp_tmp': ㅎ℃
-    '&hwp_pn': ㅎ±
+    '&hwp_pm': ㅎ±
     '&hwp_phi': ㅎØ
     '&hwp_kg': ㅎkg
     '&hwp_grm': ㅎg
@@ -190,16 +190,7 @@ parse_config:
     '&uni_mdot': Mid-dot
 
     
-  zmk_combos:
-    combo_tab:    {align: top, o: 0.15}
-    combo_del:    {align: top, o: 0.15}
-    combo_f12:    {align: bottom}
-    combo_btclr:  {align: bottom}
-    combo_play:   {align: right}
-    combo_slash:  {align: left}
-    combo_star:   {align: right}
-    combo_sleep:  {align: top, o: 0.15}
-    combo_softof: {align: top, o: 0.25}
+
 
       
   zmk_keycode_map:
