@@ -197,7 +197,7 @@ parse_config:
     combo_btclr:  {align: bottom}
     combo_play:   {align: right}
     combo_slash:  {align: left}
-    combo_star:   {align: rihgt}
+    combo_star:   {align: right}
     combo_sleep:  {align: top, o: 0.15}
     combo_softof: {align: top, o: 0.25}
 

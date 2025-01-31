@@ -120,9 +120,9 @@ layers:
   NAV:
   - Alt+$$mdi:keyboard-tab$$
   - Alt+Sft+$$mdi:keyboard-tab$$
-  - $$mdi:arrow-right-bold-box$$
-  - $$mdi:arrow-left-bold-box$$
-  - {t: Ctl+F4, h: Alt+F4}
+  - Tab Right
+  - Tab Left
+  - {t: Tab Close, h: Win Close}
   - INS
   - HOME
   - $$mdi:arrow-up$$
@@ -205,31 +205,26 @@ combos:
 - p: [0, 1]
   k: ESC
   l: [DEF]
-  draw_separate: true
 - p: [8, 9]
   k: $$mdi:backspace-reverse-outline$$
   l: [DEF]
-  draw_separate: true
+  a: top
+  o: 0.15
 - p: [12, 13]
   k: (
   l: [DEF]
-  draw_separate: true
 - p: [16, 17]
   k: )
   l: [DEF]
-  draw_separate: true
 - p: [11, 12]
   k: '['
   l: [DEF]
-  draw_separate: true
 - p: [17, 18]
   k: ']'
   l: [DEF]
-  draw_separate: true
 - p: [27, 28]
   k: ;
   l: [DEF]
-  draw_separate: true
 - p: [28, 29]
   k: ':'
   l: [DEF]
@@ -242,14 +237,12 @@ combos:
 - p: [13, 16]
   k: $$mdi:caps-lock$$
   l: [DEF]
-  draw_separate: true
 - p: [14, 15]
   k: {t: DEF, h: '$$mdi:toggle-switch$$'}
   l: [NUM, NAV]
 - p: [4, 5]
   k: Gui+L
   l: [DEF]
-  draw_separate: true
 - p: [3, 6]
   k: '&sleep'
   l: [DEF]
@@ -263,17 +256,17 @@ combos:
 - p: [2, 3]
   k: +
   l: [NUM]
-  a: top
 - p: [12, 13]
   k: '-'
   l: [NUM]
 - p: [2, 13]
   k: '*'
   l: [NUM]
-  a: top
+  a: right
 - p: [12, 3]
   k: /
   l: [NUM]
+  a: left
 - p: [23, 24]
   k: ','
   l: [NUM]
@@ -283,4 +276,3 @@ combos:
 - p: [11, 12, 13]
   k: $$mdi:keyboard-return$$
   l: [NUM]
-  draw_separate: true
