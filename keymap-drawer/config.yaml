@@ -173,7 +173,7 @@ parse_config:
     '&kp LC(F4)': Tab Close
     '&kp LG(L)': $$mdi:lock-outline$$
     '&sleep': $$mdi:power-sleep$$
-    '&soft_off': KB🌙
+    '&soft_off': $$mdi:BatteryArrowDown$$
     '&hwp_won': ㅎ₩
     '&hwp_tmp': ㅎ℃
     '&hwp_pm': ㅎ±
