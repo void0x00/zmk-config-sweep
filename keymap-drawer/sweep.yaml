@@ -41,7 +41,7 @@ layers:
   - '9'
   - ']'
   - $$mdi:calculator$$
-  - '&uni_mdot'
+  - Mid-dot
   - ''
   - ''
   - ''
@@ -51,20 +51,20 @@ layers:
   - '6'
   - '='
   - {t: NAV, h: '$$mdi:toggle-switch$$'}
-  - '&hwp_kg'
-  - '&hwp_grm'
-  - '&hwp_mg'
-  - '&hwp_vac'
+  - ㅎkg
+  - ㅎg
+  - ㅎmg
+  - ㅎVAC
   - '`'
   - '1'
   - '2'
   - '3'
   - \
   - '&hwp_pm'
-  - '&hwp_tmp'
-  - '&hwp_won'
-  - '&hwp_phi'
-  - '&hwp_mm'
+  - ㅎ℃
+  - ㅎ₩
+  - ㅎØ
+  - ㅎmm
   - '0'
   - '-'
   - {t: '$$mdi:chevron-down$$', type: trans}

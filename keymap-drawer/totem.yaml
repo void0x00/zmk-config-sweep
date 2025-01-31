@@ -46,7 +46,7 @@ layers:
   - '9'
   - ']'
   - $$mdi:calculator$$
-  - '&uni_mdot'
+  - Mid-dot
   - ''
   - ''
   - ''
@@ -56,10 +56,10 @@ layers:
   - '6'
   - '='
   - {t: NAV, h: '$$mdi:toggle-switch$$'}
-  - '&hwp_kg'
-  - '&hwp_grm'
-  - '&hwp_mg'
-  - '&hwp_vac'
+  - ㅎkg
+  - ㅎg
+  - ㅎmg
+  - ㅎVAC
   - ESC
   - '`'
   - '1'
@@ -67,10 +67,10 @@ layers:
   - '3'
   - \
   - '&hwp_pm'
-  - '&hwp_tmp'
-  - '&hwp_won'
-  - '&hwp_phi'
-  - '&hwp_mm'
+  - ㅎ℃
+  - ㅎ₩
+  - ㅎØ
+  - ㅎmm
   - $$mdi:keyboard-return$$
   - .
   - '0'

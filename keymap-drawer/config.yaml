@@ -173,6 +173,16 @@ parse_config:
       tap: $$mdi:mouse-scroll-wheel$$
       shifted: $$mdi:arrow-right-thin$$
       type: text_with_symbol
+    '&hwp_won': ㅎ₩
+    '&hwp_tmp': ㅎ℃
+    '&hwp_pn': ㅎ±
+    '&hwp_phi': ㅎØ
+    '&hwp_kg': ㅎkg
+    '&hwp_grm': ㅎg
+    '&hwp_mg': ㅎmg
+    '&hwp_vac': ㅎVAC
+    '&hwp_mm': ㅎmm
+    '&uni_mdot': Mid-dot
 
     
   zmk_combos:
