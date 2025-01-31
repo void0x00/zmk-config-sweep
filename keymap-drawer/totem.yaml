@@ -46,7 +46,7 @@ layers:
   - '9'
   - ']'
   - $$mdi:calculator$$
-  - '&uni_middot'
+  - '&uni_mdot'
   - ''
   - ''
   - ''
@@ -57,7 +57,7 @@ layers:
   - '='
   - {t: NAV, h: '$$mdi:toggle-switch$$'}
   - '&hwp_kg'
-  - '&hwp_gram'
+  - '&hwp_grm'
   - '&hwp_mg'
   - '&hwp_vac'
   - ESC
@@ -66,8 +66,8 @@ layers:
   - '2'
   - '3'
   - \
-  - '&hwp_pn'
-  - '&hwp_temp'
+  - '&hwp_p-m'
+  - '&hwp_tmp'
   - '&hwp_won'
   - '&hwp_phi'
   - '&hwp_mm'
