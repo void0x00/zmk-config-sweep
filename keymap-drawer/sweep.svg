@@ -237,12 +237,12 @@ text.label {
 rect.combo, rect.combo-separate {
   opacity: 0.95;
   stroke: #c9cccf;
-  stroke-width: 1.0;
+  stroke-width: 0.5;
   fill: #d7eaed;
 }
 path.combo {
-  stroke-dasharray: 4, 4;
-  stroke-opacity: 0.3;
+  stroke-dasharray: 0, 0;
+  stroke-opacity: 0.5;
 }
 
 rect.held, rect.combo.held {
