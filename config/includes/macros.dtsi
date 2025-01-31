@@ -26,7 +26,7 @@ macros {
                 , <&macro_release &kp LALT>;
             display-name = "KRW";
         ) 
-        ZMK_MACRO(hwp_p-m,
+        ZMK_MACRO(hwp_pm,
             wait-ms = <10>;
             tap-ms = <10>;
             bindings
