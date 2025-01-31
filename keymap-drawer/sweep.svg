@@ -235,14 +235,14 @@ text.label {
 }
 
 rect.combo, rect.combo-separate {
-  opacity: 0.95;
+  opacity: 1.00;
   stroke: #c9cccf;
   stroke-width: 0.5;
   fill: #d7eaed;
 }
 path.combo {
   stroke-dasharray: 0, 0;
-  stroke-opacity: 0.5;
+  stroke-opacity: 1.00;
 }
 
 rect.held, rect.combo.held {
@@ -748,10 +748,11 @@ rect.held, rect.combo.held {
 <text x="112" y="151" class="combo tap">.</text>
 </g>
 <g class="combo combopos-7">
-<path d="M140,97 l-38,6" class="combo"/>
-<path d="M140,97 l37,2" class="combo"/>
-<rect rx="6" ry="6" x="126" y="84" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="133" y="90" height="14" width="14.0" class="combo tap glyph mdi:keyboard-return"/>
+<path d="M140,135 h-50 a6.0,6.0 0 0 1 -6.0,-6.0 v-4" class="combo"/>
+<path d="M140,135 l0,-33" class="combo"/>
+<path d="M140,135 h50 a6.0,6.0 0 0 0 6.0,-6.0 v-10" class="combo"/>
+<rect rx="6" ry="6" x="126" y="122" width="28" height="26" class="combo"/>
+<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="133" y="128" height="14" width="14.0" class="combo tap glyph mdi:keyboard-return"/>
 </g>
 </g>
 </g>

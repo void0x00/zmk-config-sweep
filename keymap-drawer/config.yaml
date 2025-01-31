@@ -16,14 +16,14 @@ draw_config:
     }
 
     rect.combo, rect.combo-separate {
-      opacity: 0.95;
+      opacity: 1.00;
       stroke: #c9cccf;
       stroke-width: 0.5;
       fill: #d7eaed;
     }
     path.combo {
       stroke-dasharray: 0, 0;
-      stroke-opacity: 0.5;
+      stroke-opacity: 1.00;
     }
 
     rect.held, rect.combo.held {
@@ -188,6 +188,7 @@ parse_config:
     
   zmk_combos:
     combo_star:   {align: right}
+    combo_ret:    {align: bottom}
     combo_sleep:  {align: top, o: 0.25}
     combo_softof: {align: top, o: 0.40}
     combo_lock:   {align: top}
