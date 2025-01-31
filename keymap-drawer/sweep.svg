@@ -542,7 +542,7 @@ rect.held, rect.combo.held {
 <path d="M336,-23 h-190 a6.0,6.0 0 0 0 -6.0,6.0 v27" class="combo"/>
 <path d="M336,-23 h190 a6.0,6.0 0 0 1 6.0,6.0 v27" class="combo"/>
 <rect rx="6" ry="6" x="322" y="-36" width="28" height="26" class="combo"/>
-<use href="#mdi:power-sleep" xlink:href="#mdi:power-sleep" x="329" y="-30" height="14" width="14.0" class="combo tap glyph mdi:power-sleep"/>
+<text x="336" y="-23" class="combo tap">KB🌙</text>
 </g>
 </g>
 </g>
@@ -846,7 +846,9 @@ rect.held, rect.combo.held {
 <g transform="translate(420, 112)" class="key keypos-15">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<text x="0" y="-4" class="key tap">SLCK</text>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-0.6em">Scroll</tspan><tspan x="0" dy="1.2em">Lock</tspan>
+</text>
 </g>
 <g transform="translate(476, 101)" class="key keypos-16">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>

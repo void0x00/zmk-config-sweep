@@ -173,7 +173,7 @@ parse_config:
     '&kp LC(F4)': Tab Close
     '&kp LG(L)': $$mdi:lock-outline$$
     '&sleep': $$mdi:power-sleep$$
-    '&soft_off': KB $$mdi:power-sleep$$
+    '&soft_off': KB🌙
     '&hwp_won': ㅎ₩
     '&hwp_tmp': ㅎ℃
     '&hwp_pm': ㅎ±
@@ -242,6 +242,7 @@ parse_config:
     CAPSLOCK: Caps Lock
 
     SCROLLLOCK: Scroll Lock
+    SLCK: Scroll Lock
 
     KP_NLCK: $$mdi:numeric-off$$
 

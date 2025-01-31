@@ -94,7 +94,7 @@ layers:
   - {t: '%', h: Ctrl}
   - {t: ^, h: Shift}
   - +
-  - SLCK
+  - Scroll Lock
   - F4
   - F5
   - F6
@@ -248,7 +248,7 @@ combos:
   a: top
   o: 0.25
 - p: [2, 7]
-  k: KB $$mdi:power-sleep$$
+  k: KB🌙
   l: [DEF]
   a: top
   o: 0.4
