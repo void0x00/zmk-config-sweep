@@ -237,7 +237,7 @@ text.label {
 rect.combo, rect.combo-separate {
   opacity: 0.95;
   stroke: #c9cccf;
-  stroke-width: 0.5;
+  stroke-width: 1.0;
   fill: #d7eaed;
 }
 path.combo {
