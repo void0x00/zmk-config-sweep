@@ -83,7 +83,7 @@ parse_config:
   raw_binding_map: 
     '&sys_reset': $$mdi:backup-restore$$
     '&bootloader': $$mdi:progress-download$$
-    '&soft_off': Soft-off
+    '&soft_off': KB-off
     '&caps_word': $$mdi:caps-lock$$
     '&alt_tabber': $$mdi:swap-horizontal$$
    
@@ -95,10 +95,7 @@ parse_config:
       shifted: $$mdi:usb$$
       type: toggle
     
-    '&bt BT_CLR':
-      tap: $$mdi:bluetooth$$
-      shifted: $$mdi:close-thick$$
-      type: text_with_symbol
+    '&bt BT_CLR': BT CLR
     '&bts_0':
       tap: $$mdi:bluetooth-connect$$
       shifted: '0'
@@ -168,12 +165,13 @@ parse_config:
       tap: $$mdi:mouse-scroll-wheel$$
       shifted: $$mdi:arrow-right-thin$$
       type: text_with_symbol
+      
     '&kp LC(TAB)': Tab Right
     '&kp LC(LS(TAB))': Tab Left
     '&kp LA(F4)': Win Close
     '&kp LC(F4)': Tab Close
     '&kp LS(TAB)': Win Prev
-    '&kp LG(L)': Lock
+    '&kp LG(L)': $$mdi:lock-outline$$
     '&hwp_won': ㅎ₩
     '&hwp_tmp': ㅎ℃
     '&hwp_pm': ㅎ±
@@ -184,7 +182,7 @@ parse_config:
     '&hwp_vac': ㅎVAC
     '&hwp_mm': ㅎmm
     '&uni_mdot': Mid-dot
-    '&sleep': sleep
+    '&sleep': $$mdi:power-sleep$$
 
     
   zmk_combos:
@@ -195,17 +193,6 @@ parse_config:
 
       
   zmk_keycode_map:
-    LC(BSPC): $$mdi:backspace$$
-    LC(DEL): $$mdi:backspace-reverse$$
-    LS(TAB): $$mdi:keyboard-tab-reverse$$
-
-    LC(LG(LEFT)): $$mdi:arrow-left-bold-box-outline$$
-    LC(LG(RIGHT)): $$mdi:arrow-right-bold-box-outline$$
-    
-    LC(LS(LALT)): $$mdi:star-three-points-outline$$
-    LC(LS(LA(LGUI))): $$mdi:star-four-points-outline$$
-    LC(HOME): $$mdi:format-vertical-align-top$$
-    LC(END): $$mdi:format-vertical-align-bottom$$
 
     LC(INS): $$mdi:content-copy$$
     LC(C): $$mdi:content-copy$$
@@ -215,18 +202,11 @@ parse_config:
     LC(X): $$mdi:content-cut$$
     LC(Z): $$mdi:undo$$
     LC(Y): $$mdi:redo$$
-    LC(LS(DE_Z)): $$mdi:redo$$
 
     LC(A): $$mdi:select-all$$
     LC(F): $$mdi:text-search$$
     LC(W): $$mdi:close-box-outline$$
     LA(F4)': $$mdi:close-box-outline$$
-
-    LC(DE_PLUS)': $$mdi:magnify-plus-outline$$
-    LC(DE_MINUS)': $$mdi:magnify-minus-outline$$
-    LC(N0)': $$mdi:magnify-remove-outline$$
-
-    LG(L)': $$mdi:lock-outline$$
     
     LALT: ALT
     

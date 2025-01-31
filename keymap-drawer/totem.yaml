@@ -187,7 +187,7 @@ layers:
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
-  - {t: '$$mdi:bluetooth$$', s: '$$mdi:close-thick$$', type: text_with_symbol}
+  - BT CLR
   - $$mdi:keyboard-return$$
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
@@ -239,16 +239,16 @@ combos:
   k: {t: DEF, h: '$$mdi:toggle-switch$$'}
   l: [NUM, NAV]
 - p: [4, 5]
-  k: Lock
+  k: $$mdi:lock-outline$$
   l: [DEF]
   a: top
 - p: [3, 6]
-  k: sleep
+  k: $$mdi:power-sleep$$
   l: [DEF]
   a: top
   o: 0.25
 - p: [2, 7]
-  k: Soft-off
+  k: KB-off
   l: [DEF]
   a: top
   o: 0.4
