@@ -223,6 +223,9 @@ combos:
 - p: [3, 6]
   k: '&sleep'
   l: [DEF]
+- p: [2, 7]
+  k: $$mdi:power$$
+  l: [DEF]
 - p: [2, 3]
   k: +
   l: [NUM]
