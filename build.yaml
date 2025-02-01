@@ -5,14 +5,14 @@ include:
  # sweep
   - board: seeeduino_xiao_ble
     shield: sweep_dongle dongle_display
-#    snippet: common-config
-    snippet: common-config studio-rpc-usb-uart
+    snippet: common-config
+#    snippet: common-config studio-rpc-usb-uart
     artifact-name: sweep_dongle
 
   - board: nice_nano_v2
     shield: sweep_left led_indicator
-#    snippet: common-config
-    snippet: common-config studio-rpc-usb-uart
+    snippet: common-config
+#    snippet: common-config studio-rpc-usb-uart
     artifact-name: sweep_central_left
 
   - board: nice_nano_v2
@@ -29,14 +29,14 @@ include:
  # totem
   - board: seeeduino_xiao_ble
     shield: totem_dongle rgbled_adapter
-#    snippet: common-config
-    snippet: common-config studio-rpc-usb-uart
+    snippet: common-config
+#    snippet: common-config studio-rpc-usb-uart
     artifact-name: totem_dongle
 
   - board: seeeduino_xiao_ble
     shield: totem_left rgbled_adapter
-#    snippet: common-config
-    snippet: common-config studio-rpc-usb-uart
+    snippet: common-config
+#    snippet: common-config studio-rpc-usb-uart
     artifact-name: totem_central_left
 
   - board: seeeduino_xiao_ble
