@@ -21,94 +21,63 @@ macros {
             wait-ms = <10>;
             tap-ms = <10>;
             bindings
-                = <&macro_press &kp LALT>
-                , <&macro_tap &kp N4 &kp N1 &kp N9 &kp N4 &kp N8>
-                , <&macro_release &kp LALT>;
+                = <&macro_tap &kp F &kp F &kp E &kp N6 LA(LS(F10))>;
             display-name = "KRW";
         ) 
         ZMK_MACRO(hwp_pm,
             wait-ms = <10>;
             tap-ms = <10>;
             bindings
-                = <&macro_press &kp LALT>
-                , <&macro_tap &kp N4 &kp N1 &kp N4 &kp N0 &kp N6>
-                , <&macro_release &kp LALT>;
+                = <&macro_tap &kp RALT &kp N0 &kp N0 &kp B &kp N1 LA(LS(F10)) &kp RALT>;
             display-name = "plus-minus";
         )
         ZMK_MACRO(hwp_tmp,
             wait-ms = <10>;
             tap-ms = <10>;
             bindings
-                = <&macro_press &kp LALT>
-                , <&macro_tap &kp N4 &kp N1 &kp N4 &kp N1 &kp N7>
-                , <&macro_release &kp LALT>;
+                = <&macro_tap &kp RALT &kp N2 &kp N1 &kp N0 &kp N3 LA(LS(F10)) &kp RALT>;
             display-name = "Celsius";
         )
         ZMK_MACRO(hwp_phi,
             wait-ms = <10>;
             tap-ms = <10>;
             bindings
-                = <&macro_press &kp LALT>
-                , <&macro_tap &kp N4 &kp N3 &kp N1 &kp N7 &kp N8>
-                , <&macro_release &kp LALT>;
+                = <&macro_tap &kp RALT &kp N0 &kp N0 &kp D &kp N8 LA(LS(F10)) &kp RALT>;
             display-name = "O-stroke";
         )
         ZMK_MACRO(hwp_mg,
             wait-ms = <10>;
             tap-ms = <10>;
             bindings
-                = <&macro_press &kp LALT>
-                , <&macro_tap &kp N4 &kp N2 &kp N9 &kp N3 &kp N5>
-                , <&macro_release &kp LALT>;
+                = <&macro_tap &kp RALT &kp N3 &kp N3 &kp N8 &kp N2 LA(LS(F10)) &kp RALT>;
             display-name = "Milligram";
         )
       ZMK_MACRO(hwp_grm,
             wait-ms = <10>;
             tap-ms = <10>;
             bindings
-                = <&macro_press &kp LALT>
-                , <&macro_tap &kp N4 &kp N1 &kp N9 &kp N5 &kp N9>
-                , <&macro_release &kp LALT>;
+                = <&macro_tap &kp RALT &kp F &kp F &kp N4 &kp N7 LA(LS(F10)) &kp RALT>;
             display-name = "gram";
         )
         ZMK_MACRO(hwp_kg,
             wait-ms = <10>;
             tap-ms = <10>;
             bindings
-                = <&macro_press &kp LALT>
-                , <&macro_tap &kp N4 &kp N2 &kp N9 &kp N3 &kp N6>
-                , <&macro_release &kp LALT>;
+                = <&macro_tap &kp RALT &kp N3 &kp N3 &kp N8 &kp F LA(LS(F10)) &kp RALT>;
             display-name = "kilogram";
         )
         ZMK_MACRO(hwp_mm,
             wait-ms = <10>;
             tap-ms = <10>;
             bindings
-                = <&macro_press &kp LALT>
-                , <&macro_tap &kp N4 &kp N1 &kp N9 &kp N7 &kp N6>
-                , <&macro_release &kp LALT>
-                , <&macro_press &kp LALT>
-                , <&macro_tap &kp N4 &kp N1 &kp N9 &kp N7 &kp N6>
-                , <&macro_release &kp LALT>
-                , <&macro_press &kp LALT>
-                , <&macro_tap &kp N4 &kp N2 &kp N9 &kp N2 &kp N6>
-                , <&macro_release &kp LALT>;
+                = <&macro_tap &kp RALT &kp F &kp F &kp N5 &kp N8 LA(LS(F10)) &kp F &kp F &kp N5 &kp N8 LA(LS(F10)) &kp N3 &kp N3 &kp N9 &kp C LA(LS(F10)) &kp RALT>;
             display-name = "millimeter";
         )
         ZMK_MACRO(hwp_vac,
             wait-ms = <10>;
             tap-ms = <10>;
             bindings
-                = <&macro_tap &kp N2 &kp N2 &kp N0>
-                , <&macro_press &kp LALT>
-                , <&macro_tap &kp N4 &kp N1 &kp N9 &kp N4 &kp N2>
-                , <&macro_release &kp LALT>
-                , <&macro_press &kp LALT>
-                , <&macro_tap &kp N4 &kp N1 &kp N9 &kp N2 &kp N1>
-                , <&macro_release &kp LALT>
-                , <&macro_press &kp LALT>
-                , <&macro_tap &kp N4 &kp N1 &kp N9 &kp N2 &kp N3>
-                , <&macro_release &kp LALT>;
+                = <&macro_tap &kp N2 &kp N2 &kp N0 &kp RALT &kp F &kp F &kp N3 &kp N6 LA(LS(F10)) &kp F &kp F &kp N2 &kp N1 LA(LS(F10)) &kp F &kp F &kp N2 &kp N3 LA(LS(F10)) &kp RALT>;
             display-name = "VAC";
         )
         ZMK_MACRO(uni_mdot,
