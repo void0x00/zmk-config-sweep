@@ -33,11 +33,11 @@ include:
 #    snippet: common-config studio-rpc-usb-uart
 #    artifact-name: totem_dongle
 
-#  - board: seeeduino_xiao_ble
-#    shield: totem_left rgbled_adapter
+  - board: seeeduino_xiao_ble
+    shield: totem_left rgbled_adapter
 #    snippet: common-config
-#    snippet: common-config studio-rpc-usb-uart
-#    artifact-name: totem_central_left
+    snippet: common-config studio-rpc-usb-uart
+    artifact-name: totem_central_left
 
 #  - board: seeeduino_xiao_ble
 #    shield: totem_left rgbled_adapter
@@ -45,10 +45,10 @@ include:
 #    cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
 #    artifact-name: totem_peripheral_left
 
-#  - board: seeeduino_xiao_ble
-#    shield: totem_right rgbled_adapter
-#    snippet: common-config
-#    artifact-name: totem_peripheral_right
+  - board: seeeduino_xiao_ble
+    shield: totem_right rgbled_adapter
+    snippet: common-config
+    artifact-name: totem_peripheral_right
 
   # reset
   - board: seeeduino_xiao_ble
