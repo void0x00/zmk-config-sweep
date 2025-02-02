@@ -47,7 +47,7 @@ include:
 
   - board: seeeduino_xiao_ble
     shield: totem_right rgbled_adapter
-    snippet: common-config
+#    snippet: common-config
     artifact-name: totem_peripheral_right
 
   # reset
