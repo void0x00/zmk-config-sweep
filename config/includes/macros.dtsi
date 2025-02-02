@@ -119,7 +119,7 @@ macros {
             bindings
                 = <&macro_tap &kp N2 &kp N2 &kp N0 &kp RALT>
                 , <&macro_press &kp LSHFI>
-                , <&kp V &kp A &kp C &kp RALT>
+                , <&macro_tap &kp V &kp A &kp C &kp RALT>
                 , <&macro_release &kp LFHFT>;
             display-name = "VAC";
         )
