@@ -1,7 +1,6 @@
 # zmk-config
 
 This is my personal [zmk-config](https://zmk.dev/) for my Split keyboards. <br />
-Totem Bluetooth(Nice!Nano) or Dongle(Xiao_ble) <br />
 Sweep Bluethooth(Nice!Nano) or Display Dongle(Xiao_ble)
 
 ## Modules
@@ -12,13 +11,6 @@ Additional features are provided by the following [modules](https://zmk.dev/docs
 - [**zmk-rgbled-widgets**](https://github.com/caksoylar/zmk-rgbled-widget) to show the connection and battery status with the built-in LEDs of the Xiao BLE controller. Based on this, the module was adapted in [led_indicator](boards/shields/led_indicator) to be used with the single LED of the nice!nano.
 
 ## Boards and Keymaps
-
-<details>
-  <summary><a href="https://github.com/GEIGEIGEIST/zmk-config-totem">Totem</a> (38 keys)</summary>
-  <img src="keymap-drawer/totem.svg" >
-
-  _(keymap image created with [caksoylar/keymap-drawer](https://github.com/caksoylar/keymap-drawer))_
-</details>
 
 <details open>
   <summary><a href="https://github.com/davidphilipbarr/Sweep">Sweep</a> (34 keys)</summary>
