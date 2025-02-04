@@ -27,7 +27,7 @@
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <KEYS_R THUMBS>;
             hold-trigger-on-release;
-            require-prior-idle-ms = <100>;
+            require-prior-idle-ms = <120>;
         };
         asl: alpha_shift_l {
             compatible = "zmk,behavior-hold-tap";
