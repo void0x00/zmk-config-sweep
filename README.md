@@ -2,6 +2,7 @@
 
 This is my personal [zmk-config](https://zmk.dev/) for my Split keyboards. <br />
 Sweep Bluethooth(Nice!Nano) or Display Dongle(Xiao_ble)
+Totem Dongle(Xiao_ble)
 
 ## Modules
 
@@ -15,6 +16,13 @@ Additional features are provided by the following [modules](https://zmk.dev/docs
 <details open>
   <summary><a href="https://github.com/davidphilipbarr/Sweep">Sweep</a> (34 keys)</summary>
   <img src="keymap-drawer/sweep.svg" >
+
+  _(keymap image created with [caksoylar/keymap-drawer](https://github.com/caksoylar/keymap-drawer))_
+</details>
+
+<details>
+  <summary><a href="https://github.com/davidphilipbarr/Sweep">Sweep</a> (38 keys)</summary>
+  <img src="keymap-drawer/totem.svg" >
 
   _(keymap image created with [caksoylar/keymap-drawer](https://github.com/caksoylar/keymap-drawer))_
 </details>
