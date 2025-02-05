@@ -21,18 +21,18 @@
         aml: alpha_mods_l {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            tapping-term-ms = <220>;
+            tapping-term-ms = <200>;
             quick-tap-ms = <QUICK_TAP_MS>;
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <KEYS_R THUMBS>;
             hold-trigger-on-release;
-            require-prior-idle-ms = <120>;
+            require-prior-idle-ms = <130>;
         };
         asl: alpha_shift_l {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            tapping-term-ms = <210>;
+            tapping-term-ms = <200>;
             quick-tap-ms = <QUICK_TAP_MS>;
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
@@ -42,7 +42,7 @@
         amr: alpha_mods_r {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            tapping-term-ms = <220>;
+            tapping-term-ms = <200>;
             quick-tap-ms = <QUICK_TAP_MS>;
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
@@ -53,7 +53,7 @@
         asr: alpha_shift_r {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            tapping-term-ms = <210>;
+            tapping-term-ms = <200>;
             quick-tap-ms = <QUICK_TAP_MS>;
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
