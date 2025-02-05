@@ -1,7 +1,7 @@
 # zmk-config
 
 This is my personal [zmk-config](https://zmk.dev/) for my Split keyboards. <br />
-Sweep Bluethooth(Nice!Nano) or Display Dongle(Xiao_ble)
+Sweep Bluethooth(Nice!Nano) or Display Dongle(Xiao_ble) <br />
 Totem Dongle(Xiao_ble)
 
 ## Modules
