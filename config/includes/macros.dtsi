@@ -22,7 +22,7 @@ macros {
             wait-ms = <10>;
             tap-ms = <10>;
             bindings
-                = <&macro_tap &kp CTRL>
+                = <&macro_press &kp CTRL>
                 , <&macro_tap &kp A>
                 , <&macro_release &kp CTRL>;
             display-name = "Sel-all";
