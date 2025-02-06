@@ -28,7 +28,7 @@
 //           ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮   ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮
               &kp Q,         &kp W,         &kp E,         &kp R,         &kp T,             &kp Y,         &kp U,         &kp I,         &kp O,         &kp P, \
               &aml M_LGU A,  &aml M_LAL S,  &aml M_LCT D,  &asl M_LSH F,  &kp G,             &kp H,         &asr M_LSH J,  &amr M_LCT K,  &amr M_LAL L,  &aml M_LGU SQT, \
-&kp ESC,      &kp Z,         &kp X,         &kp C,         &kp V,         &kp B,             &kp N,         &kp M,         &kp COMMA,     &amr RALT DOT, &kp SLASH,     &kp RET, \
+&kp ESC,      &kp Z,         &kp X,         &kp C,         &kp V,         &kp B,             &kp N,         &kp M,         &ht RS(SPACE) COMMA, &amr RALT DOT, &kp SLASH,     &kp RET, \
                                             &kp ESC,       &lt NAV SPACE, &lt MSE TAB,       &lt SYM RET,   &lt NUM BSPC,  &kp DEL \
 //                                         ╰─────────────┴──────────────┴──────────────╯    ╰──────────────┴──────────────┴──────────────╯
             )>;

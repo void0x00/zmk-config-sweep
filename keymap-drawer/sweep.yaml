@@ -27,7 +27,7 @@ layers:
   - B
   - N
   - M
-  - ','
+  - {t: ',', h: 'Sft+$$mdi:keyboard-space$$'}
   - {t: ., h: RAlt}
   - /
   - {t: '$$mdi:keyboard-space$$', h: NAV}
