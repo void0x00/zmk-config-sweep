@@ -32,11 +32,11 @@ macros {
             wait-ms = <10>;
             tap-ms = <10>;
             bindings
-                = <&macro_press &kp CTRL>
+                = <&macro_press &kp LCTRL>
                 , <&macro_tap &kp RIGHT>
                 , <&macro_press &kp LSHFT>
                 , <&macro_tap &kp LEFT>
-                , <&macro_release &kp CTRL>
+                , <&macro_release &kp LCTRL>
                 , <&macro_release &kp LSHFT>;
             display-name = "Sel-word";
         )
