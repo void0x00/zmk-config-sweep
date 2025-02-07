@@ -18,15 +18,6 @@ macros {
                 , <&macro_release &kp LALT>; // now release the initial hold
             display-name = "Alt-tabber";
         )
-        ZMK_MACRO(sel_all,
-            wait-ms = <10>;
-            tap-ms = <10>;
-            bindings
-                = <&macro_press &kp CTRL>
-                , <&macro_tap &kp A>
-                , <&macro_release &kp CTRL>;
-            display-name = "Sel-all";
-        )
         ZMK_MACRO(sel_ln,
             wait-ms = <10>;
             tap-ms = <10>;
@@ -41,8 +32,9 @@ macros {
             wait-ms = <10>;
             tap-ms = <10>;
             bindings
-                = <&macro_press &kp LSHFT>
-                , <&macro_press &kp CTRL>
+                = <&macro_press &kp CTRL>
+                , <&macro_tap &kp &kp RIGHT>
+                , <&macro_press &kp LSHFT>
                 , <&macro_tap &kp &kp LEFT>
                 , <&macro_release &kp CTRL>
                 , <&macro_release &kp LSHFT>;
