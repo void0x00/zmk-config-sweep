@@ -32,7 +32,7 @@ layers:
   - /
   - {t: '$$mdi:keyboard-space$$', h: NAV}
   - {t: '$$mdi:keyboard-tab$$', h: MSE}
-  - {t: R EXP, h: SYM}
+  - {t: '$$mdi:keyboard-return$$', h: SYM}
   - {t: '$$mdi:backspace-outline$$', h: NUM}
   NUM:
   - '['
@@ -137,7 +137,7 @@ layers:
   - $$mdi:volume-plus$$
   - {type: held}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - R EXP
+  - $$mdi:keyboard-return$$
   - $$mdi:backspace-outline$$
   MSE:
   - ''
@@ -174,3 +174,83 @@ layers:
   - {type: held}
   - $$mdi:cursor-default-click$$
   - $$mdi:cursor-default-click-outline$$
+combos:
+- p: [1, 2]
+  k: '@'
+  l: [DEF]
+- p: [2, 3]
+  k: '#'
+  l: [DEF]
+- p: [0, 1]
+  k: ESC
+  l: [DEF]
+- p: [8, 9]
+  k: $$mdi:backspace-reverse-outline$$
+  l: [DEF]
+- p: [12, 13]
+  k: (
+  l: [DEF]
+- p: [16, 17]
+  k: )
+  l: [DEF]
+- p: [11, 12]
+  k: '['
+  l: [DEF]
+- p: [17, 18]
+  k: ']'
+  l: [DEF]
+- p: [26, 27]
+  k: ;
+  l: [DEF]
+- p: [27, 28]
+  k: ':'
+  l: [DEF]
+- p: [29, 28]
+  k: $$mdi:volume-mute$$
+  l: [NAV]
+- p: [27, 26]
+  k: $$mdi:play-pause$$
+  l: [NAV]
+- p: [13, 16]
+  k: Caps Word
+  l: [DEF]
+- p: [14, 15]
+  k: {t: DEF, h: '$$mdi:toggle-switch$$'}
+  l: [NUM, NAV]
+- p: [4, 5]
+  k: Lock
+  l: [DEF]
+  a: top
+- p: [3, 6]
+  k: Sleep
+  l: [DEF]
+  a: top
+  o: 0.25
+- p: [2, 7]
+  k: BAT Save
+  l: [DEF]
+  a: top
+  o: 0.4
+- p: [2, 3]
+  k: +
+  l: [NUM]
+- p: [12, 13]
+  k: '-'
+  l: [NUM]
+- p: [2, 13]
+  k: '*'
+  l: [NUM]
+  a: right
+- p: [12, 3]
+  k: /
+  l: [NUM]
+- p: [22, 23]
+  k: ','
+  l: [NUM]
+- p: [21, 22]
+  k: .
+  l: [NUM]
+- p: [11, 12, 13]
+  k: $$mdi:keyboard-return$$
+  l: [NUM]
+  o: -0.25

@@ -13,7 +13,7 @@
 #define MSE 4
 
 #define L_EXP ESC
-#defing R_EXP RET
+#define R_EXP RET
 #include "shortcut.dtsi"
 #include "combos.dtsi"
 #include "mouse.dtsi"
@@ -31,7 +31,7 @@
               &kp Q,         &kp W,         &kp E,         &kp R,         &kp T,             &kp Y,         &kp U,         &kp I,         &kp O,         &kp P, \
               &aml M_PNK A,  &aml M_RNG S,  &aml M_MDL D,  &asl M_IDX F,  &kp G,             &kp H,         &asr M_IDX J,  &amr M_MDL K,  &amr M_RNG L,  &aml M_PNK SQT, \
 &kp L_EXP,    &kp Z,         &kp X,         &kp C,         &kp V,         &kp B,             &kp N,         &kp M,         &ht RS(SPACE) COMMA, &amr RALT DOT, &kp SLASH,     &kp R_EXP, \
-                                            &kp L_EXP,       &lt NAV SPACE, &lt MSE TAB,       &lt SYM R_EXP,   &lt NUM BSPC,  &kp DEL \
+                                            &kp ESC,       &lt NAV SPACE, &lt MSE TAB,       &lt SYM RET,   &lt NUM BSPC,  &kp DEL \
 //                                         ╰─────────────┴──────────────┴──────────────╯    ╰──────────────┴──────────────┴──────────────╯
             )>;
         };

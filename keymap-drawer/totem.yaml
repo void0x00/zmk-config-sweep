@@ -32,11 +32,11 @@ layers:
   - {t: ',', h: 'Sft+$$mdi:keyboard-space$$'}
   - {t: ., h: RAlt}
   - /
-  - R EXP
+  - $$mdi:keyboard-return$$
   - ESC
   - {t: '$$mdi:keyboard-space$$', h: NAV}
   - {t: '$$mdi:keyboard-tab$$', h: MSE}
-  - {t: R EXP, h: SYM}
+  - {t: '$$mdi:keyboard-return$$', h: SYM}
   - {t: '$$mdi:backspace-outline$$', h: NUM}
   - $$mdi:backspace-reverse-outline$$
   NUM:
@@ -71,7 +71,7 @@ layers:
   - ㅎ₩
   - ㅎØ
   - ㅎmm
-  - R EXP
+  - $$mdi:keyboard-return$$
   - .
   - '0'
   - '-'
@@ -110,7 +110,7 @@ layers:
   - F2
   - F3
   - F10
-  - R EXP
+  - $$mdi:keyboard-return$$
   - (
   - )
   - _
@@ -149,11 +149,11 @@ layers:
   - $$mdi:skip-forward$$
   - $$mdi:volume-minus$$
   - $$mdi:volume-plus$$
-  - R EXP
+  - $$mdi:keyboard-return$$
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {type: held}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - R EXP
+  - $$mdi:keyboard-return$$
   - $$mdi:backspace-outline$$
   - $$mdi:backspace-reverse-outline$$
   MSE:
@@ -188,10 +188,90 @@ layers:
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
   - BT CLR
-  - R EXP
+  - $$mdi:keyboard-return$$
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {type: held}
   - $$mdi:cursor-default-click$$
   - $$mdi:cursor-default-click-outline$$
   - ''
+combos:
+- p: [1, 2]
+  k: '@'
+  l: [DEF]
+- p: [2, 3]
+  k: '#'
+  l: [DEF]
+- p: [0, 1]
+  k: ESC
+  l: [DEF]
+- p: [8, 9]
+  k: $$mdi:backspace-reverse-outline$$
+  l: [DEF]
+- p: [12, 13]
+  k: (
+  l: [DEF]
+- p: [16, 17]
+  k: )
+  l: [DEF]
+- p: [11, 12]
+  k: '['
+  l: [DEF]
+- p: [17, 18]
+  k: ']'
+  l: [DEF]
+- p: [27, 28]
+  k: ;
+  l: [DEF]
+- p: [28, 29]
+  k: ':'
+  l: [DEF]
+- p: [30, 29]
+  k: $$mdi:volume-mute$$
+  l: [NAV]
+- p: [28, 27]
+  k: $$mdi:play-pause$$
+  l: [NAV]
+- p: [13, 16]
+  k: Caps Word
+  l: [DEF]
+- p: [14, 15]
+  k: {t: DEF, h: '$$mdi:toggle-switch$$'}
+  l: [NUM, NAV]
+- p: [4, 5]
+  k: Lock
+  l: [DEF]
+  a: top
+- p: [3, 6]
+  k: Sleep
+  l: [DEF]
+  a: top
+  o: 0.25
+- p: [2, 7]
+  k: BAT Save
+  l: [DEF]
+  a: top
+  o: 0.4
+- p: [2, 3]
+  k: +
+  l: [NUM]
+- p: [12, 13]
+  k: '-'
+  l: [NUM]
+- p: [2, 13]
+  k: '*'
+  l: [NUM]
+  a: right
+- p: [12, 3]
+  k: /
+  l: [NUM]
+- p: [23, 24]
+  k: ','
+  l: [NUM]
+- p: [22, 23]
+  k: .
+  l: [NUM]
+- p: [11, 12, 13]
+  k: $$mdi:keyboard-return$$
+  l: [NUM]
+  o: -0.25
