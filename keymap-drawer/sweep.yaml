@@ -83,7 +83,7 @@ layers:
   - {t: ':', h: Gui}
   - {t: $, h: Alt}
   - {t: '%', h: Ctrl}
-  - {t: CAR EXP, h: Shift}
+  - {t: ^, h: Shift}
   - +
   - Scroll Lock
   - F4

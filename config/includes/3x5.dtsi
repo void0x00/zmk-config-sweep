@@ -53,7 +53,7 @@
             bindings = <LAYER_FROM38( \
 //           ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮   ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮
               &kp LBRC,      &kp AMPS,      &kp ASTRK,     &kp LPAR,      &kp RBRC,          &kp PSCRN,     &kp F7,        &kp F8,        &kp F9,        &kp F12, \
-              &ht M_PNK COLON, &ht M_RNG DLLR, &ht M_MDL PRCNT, &ht M_IDX CAR_EXP, &kp PLUS,   &kp SLCK,      &kp F4,        &kp F5,        &kp F6,        &kp F11, \
+              &ht M_PNK COLON, &ht M_RNG DLLR, &ht M_MDL PRCNT, &ht M_IDX CARET, &kp PLUS,   &kp SLCK,      &kp F4,        &kp F5,        &kp F6,        &kp F11, \
 &kp L_EXP,    &kp TILDE,     &kp EXCL,      &kp AT,        &kp HASH,      &kp PIPE,          &kp PAUSE_BREAK, &kp F1,      &kp F2,        &kp F3,        &kp F10,       &kp R_EXP, \
                                             &kp LPAR,      &kp RPAR,      &kp UNDER,         &trans,        &trans,        &trans \
 //                                         ╰──────────────┴──────────────┴──────────────╯   ╰──────────────┴──────────────┴──────────────╯
