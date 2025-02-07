@@ -33,9 +33,9 @@ macros {
             tap-ms = <10>;
             bindings
                 = <&macro_press &kp CTRL>
-                , <&macro_tap &kp &kp RIGHT>
+                , <&macro_tap &kp RIGHT>
                 , <&macro_press &kp LSHFT>
-                , <&macro_tap &kp &kp LEFT>
+                , <&macro_tap &kp LEFT>
                 , <&macro_release &kp CTRL>
                 , <&macro_release &kp LSHFT>;
             display-name = "Sel-word";
