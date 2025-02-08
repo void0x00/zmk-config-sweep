@@ -146,7 +146,7 @@ layers:
   - $$mdi:redo$$
   - $$mdi:select-all$$
   - '&sel_ln'
-  - sel wrd
+  - '&sel_wrd'
   - $$mdi:volume-minus$$
   - $$mdi:volume-plus$$
   - $$mdi:keyboard-return$$
