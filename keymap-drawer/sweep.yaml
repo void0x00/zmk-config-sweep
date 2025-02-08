@@ -131,8 +131,8 @@ layers:
   - $$mdi:content-paste$$
   - $$mdi:redo$$
   - $$mdi:select-all$$
-  - '&sel_ln'
-  - '&sel_wrd'
+  - sel-line
+  - sel-word
   - $$mdi:volume-minus$$
   - $$mdi:volume-plus$$
   - {type: held}
