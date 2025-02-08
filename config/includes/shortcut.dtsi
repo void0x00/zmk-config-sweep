@@ -11,6 +11,7 @@
   #define C_CPY LG(C)
   #define C_CUT LG(X)
   #define C_UND LG(Z)
+  #define C_ALL LG(A)
 // Desktop and tab navigation shortcuts
   #define W_CLS LG(Q)
   #define T_CLS LG(W)
@@ -30,6 +31,7 @@
   #define C_CPY LC(C)
   #define C_CUT LC(X)
   #define C_UND LC(Z)
+  #define C_ALL LC(A)
 // Desktop and tab navigation shortcuts
   #define W_CLS LA(F4)
   #define T_CLS LC(F4)
