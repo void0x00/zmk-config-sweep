@@ -66,8 +66,8 @@
 //           ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮   ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮
               &kp W_LFT,     &kp W_RHT,     &kp T_LFT,     &kp T_RHT,     &ht W_CLS T_CLS,   &kp INS,       &kp HOME,      &kp UP,        &kp END,       &kp PG_UP, \
               &kp M_PNK,     &kp M_RNG,     &kp M_MDL,     &kp M_IDX,     &to NUM,           &kp CAPS,      &kp LEFT,      &kp DOWN,      &kp RIGHT,     &kp PG_DN, \
-&kp L_EXP,    &kp C_UND,     &kp C_CUT,     &kp C_CPY,     &kp C_PST,     &kp C_RDO,         &kp C_STOP,    &kp C_PREV,    &kp C_NEXT,    &kp C_VOL_DN,  &kp C_VOL_UP,  &kp R_EXP, \
-                                            &trans,        &trans,        &trans,            &kp R_EXP,       &kp BSPC,      &kp DEL \
+&kp L_EXP,    &kp C_UND,     &kp C_CUT,     &kp C_CPY,     &kp C_PST,     &kp C_RDO,         &kp C_ALL,     &sel_ln,       &kp sel_wrd,   &kp C_VOL_DN,  &kp C_VOL_UP,  &kp R_EXP, \
+                                            &trans,        &trans,        &trans,            &kp RET,       &kp BSPC,      &kp DEL \
 //                                         ╰──────────────┴──────────────┴──────────────╯   ╰──────────────┴──────────────┴──────────────╯
             )>;
         };
