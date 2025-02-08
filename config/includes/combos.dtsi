@@ -35,7 +35,7 @@ COMBO(rbkt,   &kp RBKT,    RM2 RM3,     DEF,          40, 100)
 COMBO(semi,   &kp SEMI,    RB1 RB2,     DEF,          40, 100)
 COMBO(colon,  &kp COLON,   RB2 RB3,     DEF,          40, 100)
 COMBO(mute,   &kp C_MUTE,  RB4 RB3,     NAV,          40, 100)
-COMBO(plpu,   &kp C_PP,    RB2 RB1,     NAV,          40, 100)
+// COMBO(plpu,   &kp C_PP,    RB2 RB1,     NAV,          40, 100)
 
 // thumb
 // COMBO(dot,    &kp DOT,     LH1 LH0,     NUM,          40, 150)

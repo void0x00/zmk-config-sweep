@@ -130,9 +130,9 @@ layers:
   - $$mdi:content-copy$$
   - $$mdi:content-paste$$
   - $$mdi:redo$$
-  - STOP
-  - $$mdi:skip-backward$$
-  - $$mdi:skip-forward$$
+  - $$mdi:select-all$$
+  - '&sel_ln'
+  - sel wrd
   - $$mdi:volume-minus$$
   - $$mdi:volume-plus$$
   - {type: held}
@@ -207,9 +207,6 @@ combos:
   l: [DEF]
 - p: [29, 28]
   k: $$mdi:volume-mute$$
-  l: [NAV]
-- p: [27, 26]
-  k: $$mdi:play-pause$$
   l: [NAV]
 - p: [13, 16]
   k: Caps Word
