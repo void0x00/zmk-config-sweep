@@ -13,12 +13,12 @@ layers:
   - P
   - {t: A, h: Gui}
   - {t: S, h: Alt}
-  - {t: D, h: Ctrl}
-  - {t: F, h: Shift}
+  - {t: D, h: Shift}
+  - {t: F, h: Ctrl}
   - G
   - H
-  - {t: J, h: Shift}
-  - {t: K, h: Ctrl}
+  - {t: J, h: Ctrl}
+  - {t: K, h: Shift}
   - {t: L, h: Alt}
   - {t: '''', h: Gui}
   - ESC
@@ -91,8 +91,8 @@ layers:
   - F12
   - {t: ':', h: Gui}
   - {t: $, h: Alt}
-  - {t: '%', h: Ctrl}
-  - {t: ^, h: Shift}
+  - {t: '%', h: Shift}
+  - {t: ^, h: Ctrl}
   - +
   - Scroll Lock
   - F4
@@ -130,8 +130,8 @@ layers:
   - Page Up
   - Gui
   - Alt
-  - Ctrl
   - Shift
+  - Ctrl
   - {t: NUM, h: '$$mdi:toggle-switch$$'}
   - Caps Lock
   - $$mdi:arrow-left$$
