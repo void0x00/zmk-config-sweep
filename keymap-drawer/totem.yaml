@@ -144,9 +144,9 @@ layers:
   - $$mdi:content-copy$$
   - $$mdi:content-paste$$
   - $$mdi:redo$$
-  - $$mdi:select-all$$
-  - '&sel_ln'
-  - '&sel_wrd'
+  - Sel-All
+  - Sel-Line
+  - Sel-Word
   - $$mdi:volume-minus$$
   - $$mdi:volume-plus$$
   - $$mdi:keyboard-return$$

@@ -184,6 +184,8 @@ parse_config:
     '&hwp_vac': ㅎVAC
     '&hwp_mm': ㅎmm
     '&uni_mdot': Mid-dot
+    '&sel_ln': Sel-Line
+    '&sel_wrd': Sel-Word
 
     
   zmk_combos:
@@ -205,7 +207,7 @@ parse_config:
     LC(Z): $$mdi:undo$$
     LC(Y): $$mdi:redo$$
 
-    LC(A): $$mdi:select-all$$
+    LC(A): Sel-All
     LC(F): $$mdi:text-search$$
     LC(W): $$mdi:close-box-outline$$
     LA(F4)': $$mdi:close-box-outline$$

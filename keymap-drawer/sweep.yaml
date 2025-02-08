@@ -130,9 +130,9 @@ layers:
   - $$mdi:content-copy$$
   - $$mdi:content-paste$$
   - $$mdi:redo$$
-  - $$mdi:select-all$$
-  - sel-line
-  - sel-word
+  - Sel-All
+  - Sel-Line
+  - Sel-Word
   - $$mdi:volume-minus$$
   - $$mdi:volume-plus$$
   - {type: held}
