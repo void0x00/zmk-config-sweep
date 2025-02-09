@@ -130,7 +130,7 @@ layers:
   - $$mdi:content-copy$$
   - $$mdi:content-paste$$
   - $$mdi:redo$$
-  - '&LC(A)'
+  - Sel-All
   - Sel-Line
   - Sel-Word
   - $$mdi:volume-minus$$
