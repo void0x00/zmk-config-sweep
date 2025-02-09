@@ -32,12 +32,6 @@ include:
 #    cmake-args: -DCONFIG_LOG_PROCESS_THREAD_STARTUP_DELAY_MS=8000
 #    artifact-name: sweep_central_left_with_logging
 
-  - board: seeeduino_xiao_ble
-    shield: totem_left
-  - board: seeeduino_xiao_ble
-    shield: totem_right
-  - board: seeeduino_xiao_ble
-    shield: totem_dongle
     
   # reset
   - board: seeeduino_xiao_ble
