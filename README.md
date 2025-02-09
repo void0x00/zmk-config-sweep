@@ -13,14 +13,14 @@ Additional features are provided by the following [modules](https://zmk.dev/docs
 
 ## Boards and Keymaps
 
-<details>
+<details open>
   <summary><a href="https://github.com/davidphilipbarr/Sweep">Sweep</a> (34 keys)</summary>
   <img src="keymap-drawer/sweep.svg" >
 
   _(keymap image created with [caksoylar/keymap-drawer](https://github.com/caksoylar/keymap-drawer))_
-</details> <br />
+</details>
 
-<details open>
+<details>
   <summary><a href="https://github.com/GEIGEIGEIST/zmk-config-totem">Totem</a> (38 keys)</summary>
   <img src="keymap-drawer/totem.svg" >
 
