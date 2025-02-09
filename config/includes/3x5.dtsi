@@ -64,7 +64,7 @@
             display-name = "NAV";
             bindings = <LAYER_FROM38( \
 //           ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮   ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮
-              &kp W_RHT,     &kp W_LFT,     &kp T_RHT,     &kp T_LFT,     &ht W_CLS T_CLS,   &kp INS,       &kp HOME,      &kp UP,        &kp END,       &kp PG_UP, \
+              &kp W_LFT,     &kp W_RHT,     &kp T_LFT,     &kp T_RHT,     &ht W_CLS T_CLS,   &kp INS,       &kp HOME,      &kp UP,        &kp END,       &kp PG_UP, \
               &kp M_PNK,     &kp M_RNG,     &kp M_MDL,     &kp M_IDX,     &to NUM,           &kp CAPS,      &kp LEFT,      &kp DOWN,      &kp RIGHT,     &kp PG_DN, \
 &kp L_EXP,    &kp C_UND,     &kp C_CUT,     &kp C_CPY,     &kp C_PST,     &kp C_RDO,         &kp C_ALL,     &sel_ln,       &sel_wrd,      &kp C_VOL_DN,  &kp C_VOL_UP,  &kp R_EXP, \
                                             &trans,        &trans,        &trans,            &kp RET,       &kp BSPC,      &kp DEL \
@@ -76,9 +76,9 @@
             display-name = "MSE";
             bindings = <LAYER_FROM38( \
 //           ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮   ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮
-              &none,         &none,         &none,         &none,         &none,             &studio_unlock,         &msc SCRL_LEFT, &mmv MOVE_UP,  &msc SCRL_RIGHT, &msc SCRL_UP, \
-              &none,         &none,         &none,         &none,         &none,             &kp K_APP,     &mmv MOVE_LEFT, &mmv MOVE_DOWN, &mmv MOVE_RIGHT, &msc SCRL_DOWN, \
-&kp L_EXP,      &none,         &none,         &none,         &none,         &none,             &bt BT_CLR_ALL, &bt BT_SEL 0, &bt BT_SEL 1,  &bt BT_SEL 2,  &bt BT_CLR,    &kp R_EXP, \
+              &none,         &none,         &none,         &none,         &none,             &studio_unlock, &msc SCRL_LEFT, &mmv MOVE_UP,  &msc SCRL_RIGHT, &msc SCRL_UP, \
+              &none,         &none,         &none,         &none,         &none,             &kp K_APP,      &mmv MOVE_LEFT, &mmv MOVE_DOWN, &mmv MOVE_RIGHT, &msc SCRL_DOWN, \
+&kp L_EXP,    &none,         &none,         &none,         &none,         &none,             &bt BT_CLR_ALL, &bt BT_SEL 0, &bt BT_SEL 1,  &bt BT_SEL 2,  &bt BT_CLR,    &kp R_EXP, \
                                             &trans,        &trans,        &trans,            &mkp RCLK,     &mkp LCLK,     &none \
 //                                         ╰──────────────┴──────────────┴──────────────╯   ╰──────────────┴──────────────┴──────────────╯
             )>;

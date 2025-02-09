@@ -105,10 +105,10 @@ layers:
   - {type: held}
   - {t: '$$mdi:chevron-down$$', type: trans}
   NAV:
-  - TaskSW →
   - TaskSW ←
-  - Tab Right
+  - TaskSW →
   - Tab Left
+  - Tab Right
   - {t: Tab Close, h: Win Close}
   - INS
   - HOME
