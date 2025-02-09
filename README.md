@@ -6,9 +6,9 @@ Totem Dongle(Xiao_ble), Studio available.
 
 ## Modules
 
-Additional features are provided by the following [modules](https://zmk.dev/docs/features/modules):
+Additional features are provided by the following [modules](https://zmk.dev/docs/features/modules): <br />
 
-- [**zmk-dongle-display**](https://github.com/englmaxi/zmk-dongle-display) to show the peripheral battery percentage (and more!) on the display of my dongle.
+- [**zmk-dongle-display**](https://github.com/englmaxi/zmk-dongle-display) to show the peripheral battery percentage (and more!) on the display of my dongle. <br />
 - [**zmk-rgbled-widgets**](https://github.com/caksoylar/zmk-rgbled-widget) to show the connection and battery status with the built-in LEDs of the Xiao BLE controller. Based on this, the module was adapted in [led_indicator](boards/shields/led_indicator) to be used with the single LED of the nice!nano.
 
 ## Boards and Keymaps
@@ -18,7 +18,7 @@ Additional features are provided by the following [modules](https://zmk.dev/docs
   <img src="keymap-drawer/sweep.svg" >
 
   _(keymap image created with [caksoylar/keymap-drawer](https://github.com/caksoylar/keymap-drawer))_
-</details>
+</details> <br />
 
 <details>
   <summary><a href="https://github.com/GEIGEIGEIST/zmk-config-totem">Totem</a> (38 keys)</summary>
