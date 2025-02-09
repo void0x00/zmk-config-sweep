@@ -12,7 +12,7 @@
 #define NAV 3
 #define MSE 4
 
-// totem row 4 additional keys
+// totem 4 row additional keys
 #define L_EXP ESC
 #define R_EXP RET
 
