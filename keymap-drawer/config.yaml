@@ -186,7 +186,7 @@ parse_config:
     '&uni_mdot': Mid-dot
     '&sel_ln': Sel-Line
     '&sel_wrd': Sel-Word
-    '&studio_unlock' : Studio
+    '&studio_unlock' : Studio Unlock
 
     
   zmk_combos:
