@@ -10,16 +10,16 @@ layers:
   - I
   - O
   - P
-  - {t: A, h: M LGU}
-  - {t: S, h: M LAL}
-  - {t: D, h: M LCT}
-  - {t: F, h: M LSH}
+  - {t: A, h: Ctrl}
+  - {t: S, h: Alt}
+  - {t: D, h: Gui}
+  - {t: F, h: Shift}
   - G
   - H
-  - {t: J, h: M LSH}
-  - {t: K, h: M LCT}
-  - {t: L, h: M LAL}
-  - {t: '''', h: M LGU}
+  - {t: J, h: Shift}
+  - {t: K, h: Gui}
+  - {t: L, h: Alt}
+  - {t: '''', h: Ctrl}
   - Z
   - X
   - C
@@ -27,7 +27,7 @@ layers:
   - B
   - N
   - M
-  - {t: ',', h: M RAL}
+  - {t: ',', h: 'Sft+$$mdi:keyboard-space$$'}
   - {t: ., h: RAlt}
   - /
   - {t: '$$mdi:keyboard-space$$', h: NAV}
@@ -80,10 +80,10 @@ layers:
   - F8
   - F9
   - F12
-  - {t: ':', h: M LGU}
-  - {t: $, h: M LAL}
-  - {t: '%', h: M LCT}
-  - {t: ^, h: M LSH}
+  - {t: ':', h: Ctrl}
+  - {t: $, h: Alt}
+  - {t: '%', h: Gui}
+  - {t: ^, h: Shift}
   - +
   - Scroll Lock
   - F4
@@ -115,10 +115,10 @@ layers:
   - $$mdi:arrow-up$$
   - END
   - Page Up
-  - M LGU
-  - M LAL
-  - M LCT
-  - M LSH
+  - Ctrl
+  - Alt
+  - Gui
+  - Shift
   - {t: NUM, h: '$$mdi:toggle-switch$$'}
   - Caps Lock
   - $$mdi:arrow-left$$
@@ -130,9 +130,9 @@ layers:
   - $$mdi:content-copy$$
   - $$mdi:content-paste$$
   - $$mdi:redo$$
-  - STOP
-  - $$mdi:skip-backward$$
-  - $$mdi:skip-forward$$
+  - '&LC(A)'
+  - Sel-Line
+  - Sel-Word
   - $$mdi:volume-minus$$
   - $$mdi:volume-plus$$
   - {type: held}
@@ -145,7 +145,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - Studio Unlock
   - {t: '$$mdi:mouse-scroll-wheel$$', s: '$$mdi:arrow-left-thin$$', type: text_with_symbol}
   - {t: '$$mdi:mouse-outline$$', s: '$$mdi:arrow-up$$', type: text_with_symbol}
   - {t: '$$mdi:mouse-scroll-wheel$$', s: '$$mdi:arrow-right-thin$$', type: text_with_symbol}
