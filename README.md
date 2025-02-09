@@ -15,7 +15,7 @@ Additional features are provided by the following [modules](https://zmk.dev/docs
 
 <details open>
   <summary><a href="https://github.com/davidphilipbarr/Sweep">Sweep</a> (34 keys)</summary>
-  <img src="keymap-drawer/sweep.svg" >
+  <img src="keymap-drawer/totem.svg" >
 
   _(keymap image created with [caksoylar/keymap-drawer](https://github.com/caksoylar/keymap-drawer))_
 </details>
