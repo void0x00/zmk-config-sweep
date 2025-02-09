@@ -7,7 +7,6 @@ on:
       - config/*.keymap
       - config/*.conf
       - config/includes/*.dtsi
-      - boards/**
       - build.yaml
 
 jobs:
