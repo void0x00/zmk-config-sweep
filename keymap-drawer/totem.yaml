@@ -11,16 +11,16 @@ layers:
   - I
   - O
   - P
-  - {t: A, h: Gui}
+  - {t: A, h: Ctrl}
   - {t: S, h: Alt}
-  - {t: D, h: Shift}
-  - {t: F, h: Ctrl}
+  - {t: D, h: Gui}
+  - {t: F, h: Shift}
   - G
   - H
-  - {t: J, h: Ctrl}
-  - {t: K, h: Shift}
+  - {t: J, h: Shift}
+  - {t: K, h: Gui}
   - {t: L, h: Alt}
-  - {t: '''', h: Gui}
+  - {t: '''', h: Ctrl}
   - ESC
   - Z
   - X
@@ -89,10 +89,10 @@ layers:
   - F8
   - F9
   - F12
-  - {t: ':', h: Gui}
+  - {t: ':', h: Ctrl}
   - {t: $, h: Alt}
-  - {t: '%', h: Shift}
-  - {t: ^, h: Ctrl}
+  - {t: '%', h: Gui}
+  - {t: ^, h: Shift}
   - +
   - Scroll Lock
   - F4
@@ -128,10 +128,10 @@ layers:
   - $$mdi:arrow-up$$
   - END
   - Page Up
-  - Gui
-  - Alt
+  - {t: Sel-All, h: Ctrl}
+  - {t: sel ln, h: Alt}
+  - {t: sel wrd, h: Gui}
   - Shift
-  - Ctrl
   - {t: NUM, h: '$$mdi:toggle-switch$$'}
   - Caps Lock
   - $$mdi:arrow-left$$
@@ -144,9 +144,9 @@ layers:
   - $$mdi:content-copy$$
   - $$mdi:content-paste$$
   - $$mdi:redo$$
-  - Sel-All
-  - Sel-Line
-  - Sel-Word
+  - STOP
+  - $$mdi:skip-backward$$
+  - $$mdi:skip-forward$$
   - $$mdi:volume-minus$$
   - $$mdi:volume-plus$$
   - $$mdi:keyboard-return$$
@@ -229,24 +229,27 @@ combos:
 - p: [30, 29]
   k: $$mdi:volume-mute$$
   l: [NAV]
+- p: [28, 27]
+  k: $$mdi:play-pause$$
+  l: [NAV]
 - p: [13, 16]
   k: Caps Word
-  l: [DEF]
+  l: [SYM]
 - p: [14, 15]
   k: {t: DEF, h: '$$mdi:toggle-switch$$'}
   l: [NUM, NAV]
 - p: [4, 5]
   k: Lock
-  l: [DEF]
+  l: [SYM]
   a: top
 - p: [3, 6]
   k: Sleep
-  l: [DEF]
+  l: [SYM]
   a: top
   o: 0.25
 - p: [2, 7]
   k: BAT Save
-  l: [DEF]
+  l: [SYM]
   a: top
   o: 0.4
 - p: [2, 3]
