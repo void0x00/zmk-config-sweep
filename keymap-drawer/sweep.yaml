@@ -132,7 +132,7 @@ layers:
   - $$mdi:redo$$
   - Sel-All
   - Sel-Line
-  - sel wrd
+  - Sel-Word
   - $$mdi:volume-minus$$
   - $$mdi:volume-plus$$
   - {type: held}
