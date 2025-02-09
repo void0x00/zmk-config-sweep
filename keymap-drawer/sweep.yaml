@@ -208,12 +208,9 @@ combos:
 - p: [29, 28]
   k: $$mdi:volume-mute$$
   l: [NAV]
-- p: [27, 26]
-  k: $$mdi:play-pause$$
-  l: [NAV]
 - p: [13, 16]
   k: Caps Word
-  l: [SYM]
+  l: [DEF]
 - p: [14, 15]
   k: {t: DEF, h: '$$mdi:toggle-switch$$'}
   l: [NUM, NAV]
