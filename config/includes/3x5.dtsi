@@ -29,7 +29,7 @@
             bindings = <LAYER_FROM38( \
 //           ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮   ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮
               &kp Q,         &kp W,         &kp E,         &kp R,         &kp T,             &kp Y,         &kp U,         &kp I,         &kp O,         &kp P, \
-              &aml M_PNK A,  &aml M_RNG S,  &asl M_MDL D,  &aml M_IDX F,  &kp G,             &kp H,         &amr M_IDX J,  &asr M_MDL K,  &amr M_RNG L,  &aml M_PNK SQT, \
+              &aml M_PNK A,  &aml M_RNG S,  &aml M_MDL D,  &asl M_IDX F,  &kp G,             &kp H,         &asr M_IDX J,  &amr M_MDL K,  &amr M_RNG L,  &aml M_PNK SQT, \
 &kp L_EXP,    &kp Z,         &kp X,         &kp C,         &kp V,         &kp B,             &kp N,         &kp M,         &ht RS(SPACE) COMMA, &ht RALT DOT, &kp SLASH,     &kp R_EXP, \
                                             &kp ESC,       &lt NAV SPACE, &lt MSE TAB,       &lt SYM RET,   &lt NUM BSPC,  &kp DEL \
 //                                         ╰─────────────┴──────────────┴──────────────╯    ╰──────────────┴──────────────┴──────────────╯
@@ -65,8 +65,8 @@
             bindings = <LAYER_FROM38( \
 //           ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮   ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮
               &kp W_LFT,     &kp W_RHT,     &kp T_LFT,     &kp T_RHT,     &ht W_CLS T_CLS,   &kp INS,       &kp HOME,      &kp UP,        &kp END,       &kp PG_UP, \
-              &kp M_PNK,     &kp M_RNG,     &kp M_MDL,     &kp M_IDX,     &to NUM,           &kp CAPS,      &kp LEFT,      &kp DOWN,      &kp RIGHT,     &kp PG_DN, \
-&kp L_EXP,    &kp C_UND,     &kp C_CUT,     &kp C_CPY,     &kp C_PST,     &kp C_RDO,         &kp C_ALL,     &sel_ln,       &sel_wrd,      &kp C_VOL_DN,  &kp C_VOL_UP,  &kp R_EXP, \
+            &ht M_PNK C_ALL, &ht M_RNG sel_ln, &ht M_MDL sel_wrd, &kp M_IDX, &to NUM,        &kp CAPS,      &kp LEFT,      &kp DOWN,      &kp RIGHT,     &kp PG_DN, \
+&kp L_EXP,    &kp C_UND,     &kp C_CUT,     &kp C_CPY,     &kp C_PST,     &kp C_RDO,         &kp C_STOP,    &kp C_PREV,    &kp C_NEXT,    &kp C_VOL_DN,  &kp C_VOL_UP,  &kp R_EXP, \
                                             &trans,        &trans,        &trans,            &kp RET,       &kp BSPC,      &kp DEL \
 //                                         ╰──────────────┴──────────────┴──────────────╯   ╰──────────────┴──────────────┴──────────────╯
             )>;
