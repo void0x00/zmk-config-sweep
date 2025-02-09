@@ -1,2 +1,2 @@
-#include "keypos_def/keypos_34keys.h"
+#include "keypos_def/keypos_38keys.h"
 #include "includes/3x5.dtsi"
