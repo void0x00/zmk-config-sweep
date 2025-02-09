@@ -21,7 +21,7 @@ layers:
   - {t: K, h: Gui}
   - {t: L, h: Alt}
   - {t: '''', h: Ctrl}
-  - ''
+  - ESC
   - Z
   - X
   - C
@@ -32,7 +32,7 @@ layers:
   - {t: ',', h: 'Sft+$$mdi:keyboard-space$$'}
   - {t: ., h: RAlt}
   - /
-  - ''
+  - $$mdi:keyboard-return$$
   - ESC
   - {t: '$$mdi:keyboard-space$$', h: NAV}
   - {t: '$$mdi:keyboard-tab$$', h: MSE}
@@ -60,7 +60,7 @@ layers:
   - ㅎg
   - ㅎmg
   - ㅎVAC
-  - ''
+  - ESC
   - '`'
   - '1'
   - '2'
@@ -71,7 +71,7 @@ layers:
   - ㅎ₩
   - ㅎØ
   - ㅎmm
-  - ''
+  - $$mdi:keyboard-return$$
   - .
   - '0'
   - '-'
@@ -99,7 +99,7 @@ layers:
   - F5
   - F6
   - F11
-  - ''
+  - ESC
   - '~'
   - '!'
   - '@'
@@ -110,7 +110,7 @@ layers:
   - F2
   - F3
   - F10
-  - ''
+  - $$mdi:keyboard-return$$
   - (
   - )
   - _
@@ -138,7 +138,7 @@ layers:
   - $$mdi:arrow-down$$
   - $$mdi:arrow-right$$
   - Page Down
-  - ''
+  - ESC
   - $$mdi:undo$$
   - $$mdi:content-cut$$
   - $$mdi:content-copy$$
@@ -149,7 +149,7 @@ layers:
   - Sel-Word
   - $$mdi:volume-minus$$
   - $$mdi:volume-plus$$
-  - ''
+  - $$mdi:keyboard-return$$
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {type: held}
   - {t: '$$mdi:chevron-down$$', type: trans}
@@ -177,7 +177,7 @@ layers:
   - {t: '$$mdi:mouse-outline$$', s: '$$mdi:arrow-down$$', type: text_with_symbol}
   - {t: '$$mdi:mouse-outline$$', s: '$$mdi:arrow-right$$', type: text_with_symbol}
   - {t: '$$mdi:mouse-scroll-wheel$$', s: '$$mdi:arrow-down-thin$$', type: text_with_symbol}
-  - ''
+  - ESC
   - ''
   - ''
   - ''
@@ -188,7 +188,7 @@ layers:
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
   - BT CLR
-  - ''
+  - $$mdi:keyboard-return$$
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {type: held}

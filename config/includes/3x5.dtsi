@@ -12,12 +12,13 @@
 #define NAV 3
 #define MSE 4
 
+// totem row 4 additional keys
 #define L_EXP ESC
 #define R_EXP RET
+
 #include "shortcut.dtsi"
 #include "combos.dtsi"
 #include "mouse.dtsi"
-
 #include "behaviors.dtsi"
 #include "macros.dtsi"
 / {
