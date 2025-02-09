@@ -1,10 +1,10 @@
 // shortcut select os
 #ifdef MAC_OS
 // homerow mods
-  #define M_IDX LCTRL
-  #define M_MDL LSHFT
+  #define M_IDX LSHFT
+  #define M_MDL LGUI
   #define M_RNG LALT
-  #define M_PNK LGUI
+  #define M_PNK LCTRL
 // clipboard shortcut
   #define C_RDO LG(LS(Z))
   #define C_PST LG(V)
@@ -21,10 +21,10 @@
   #define W_LFT LG(LS(TAB))
 #else
 // homerow mods
-  #define M_IDX LCTRL
-  #define M_MDL LSHFT
+  #define M_IDX LSHFT
+  #define M_MDL LGUI
   #define M_RNG LALT
-  #define M_PNK LGUI
+  #define M_PNK LCTRL
 // clipboard shortcut
   #define C_RDO LC(Y)
   #define C_PST LC(V)
