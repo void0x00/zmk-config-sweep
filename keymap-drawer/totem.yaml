@@ -211,9 +211,11 @@ combos:
 - p: [1, 0]
   k: '&ind_bat'
   l: [SYM]
+  a: top
 - p: [8, 9]
   k: '&ind_con'
   l: [SYM]
+  a: top
 - p: [12, 13]
   k: (
   l: [DEF]
@@ -253,6 +255,8 @@ combos:
 - p: [2, 7]
   k: BAT Save
   l: [SYM]
+  a: top
+  o: 0.4
 - p: [14, 15]
   k: Studio Unlock
   l: [SYM]
