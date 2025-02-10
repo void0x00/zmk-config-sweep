@@ -1,4 +1,4 @@
-<svg width="911" height="1920" viewBox="0 0 911 1920" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="911" height="1884" viewBox="0 0 911 1884" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>/* start glyphs */
 <svg id="mdi:arrow-down">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-down" viewBox="0 0 24 24"><path d="M11,4H13V16L18.5,10.5L19.92,11.92L12,19.84L4.08,11.92L5.5,10.5L11,16V4Z" /></svg>
@@ -768,7 +768,7 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(30, 731)" class="layer-SYM">
 <text x="0" y="28" class="label" id="SYM">SYM</text>
-<g transform="translate(0, 92)">
+<g transform="translate(0, 56)">
 <g transform="translate(78, 113) rotate(-10.0)" class="key keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-22" y="-24" width="43" height="40" class="key"/>
@@ -969,28 +969,44 @@ rect.held, rect.combo.held {
 <use href="#mdi:chevron-down" xlink:href="#mdi:chevron-down" x="-7" y="-11" height="14" width="14.0" class="key trans tap glyph mdi:chevron-down"/>
 </g>
 <g class="combo combopos-0">
+<rect rx="6" ry="6" x="97" y="74" width="28" height="26" class="combo"/>
+<text x="111" y="87" class="combo tap"><tspan style="font-size: 88%">&amp;ind_bat</tspan></text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="726" y="75" width="28" height="26" class="combo"/>
+<text x="740" y="88" class="combo tap"><tspan style="font-size: 88%">&amp;ind_con</tspan></text>
+</g>
+<g class="combo combopos-2">
 <path d="M425,36 h-89 a6.0,6.0 0 0 0 -6.0,6.0 v4" class="combo"/>
 <path d="M425,36 h89 a6.0,6.0 0 0 1 6.0,6.0 v4" class="combo"/>
 <rect rx="6" ry="6" x="411" y="23" width="28" height="26" class="combo"/>
 <text x="425" y="36" class="combo tap">Lock</text>
 </g>
-<g class="combo combopos-1">
+<g class="combo combopos-3">
 <path d="M425,13 h-148 a6.0,6.0 0 0 0 -6.0,6.0 v18" class="combo"/>
 <path d="M425,13 h148 a6.0,6.0 0 0 1 6.0,6.0 v18" class="combo"/>
 <rect rx="6" ry="6" x="411" y="0" width="28" height="26" class="combo"/>
 <text x="425" y="13" class="combo tap">Sleep</text>
 </g>
-<g class="combo combopos-2">
-<path d="M425,-23 h-208 a6.0,6.0 0 0 0 -6.0,6.0 v27" class="combo"/>
-<path d="M425,-23 h208 a6.0,6.0 0 0 1 6.0,6.0 v27" class="combo"/>
-<rect rx="6" ry="6" x="411" y="-36" width="28" height="26" class="combo"/>
-<text x="425" y="-23" class="combo tap">
+<g class="combo combopos-4">
+<path d="M425,28 l-194,0" class="combo"/>
+<path d="M425,28 l194,0" class="combo"/>
+<rect rx="6" ry="6" x="411" y="15" width="28" height="26" class="combo"/>
+<text x="425" y="28" class="combo tap">
 <tspan x="425" dy="-0.6em">BAT</tspan><tspan x="425" dy="1.2em">Save</tspan>
+</text>
+</g>
+<g class="combo combopos-5">
+<path d="M425,121 l-75,0" class="combo"/>
+<path d="M425,121 l75,0" class="combo"/>
+<rect rx="6" ry="6" x="411" y="108" width="28" height="26" class="combo"/>
+<text x="425" y="121" class="combo tap">
+<tspan x="425" dy="-0.6em">Studio</tspan><tspan x="425" dy="1.2em">Unlock</tspan>
 </text>
 </g>
 </g>
 </g>
-<g transform="translate(30, 1133)" class="layer-NAV">
+<g transform="translate(30, 1097)" class="layer-NAV">
 <text x="0" y="28" class="label" id="NAV">NAV</text>
 <g transform="translate(0, 56)">
 <g transform="translate(78, 113) rotate(-10.0)" class="key keypos-0">
@@ -1219,7 +1235,7 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(30, 1498)" class="layer-MSE">
+<g transform="translate(30, 1462)" class="layer-MSE">
 <text x="0" y="28" class="label" id="MSE">MSE</text>
 <g transform="translate(0, 56)">
 <g transform="translate(78, 113) rotate(-10.0)" class="key keypos-0">
