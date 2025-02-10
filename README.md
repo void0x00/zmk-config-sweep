@@ -2,7 +2,7 @@
 
 This is my personal [zmk-config](https://zmk.dev/) for my Split keyboards. <br />
 Sweep Bluethooth(Nice!Nano) or Display Dongle(Xiao_ble), Studio available. <br />
-Totem Dongle(Xiao_ble), Studio available.
+Totem Bluethooth(Xiao_ble) or Dongle(Xiao_ble), Studio available.
 
 ## Modules
 
