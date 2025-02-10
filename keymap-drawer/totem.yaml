@@ -157,8 +157,8 @@ layers:
   - $$mdi:backspace-outline$$
   - $$mdi:backspace-reverse-outline$$
   MSE:
-  - '&ind_con'
-  - '&ind_bat'
+  - Conn status
+  - Batt level
   - BAT Save
   - Lock
   - Sleep

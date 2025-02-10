@@ -187,6 +187,8 @@ parse_config:
     '&sel_ln': Sel-Line
     '&sel_wrd': Sel-Word
     '&studio_unlock' : Studio Unlock
+    '&ind_con': Conn status
+    '&ind_bat': Batt level
 
     
   zmk_combos:

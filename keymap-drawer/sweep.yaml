@@ -140,8 +140,8 @@ layers:
   - $$mdi:keyboard-return$$
   - $$mdi:backspace-outline$$
   MSE:
-  - '&ind_con'
-  - '&ind_bat'
+  - Conn status
+  - Batt level
   - BAT Save
   - Lock
   - Sleep
