@@ -157,37 +157,37 @@ layers:
   - $$mdi:backspace-outline$$
   - $$mdi:backspace-reverse-outline$$
   MSE:
+  - '&ind_con'
+  - '&ind_bat'
+  - BAT Save
+  - Lock
+  - Sleep
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - Studio Unlock
   - {t: '$$mdi:mouse-scroll-wheel$$', s: '$$mdi:arrow-left-thin$$', type: text_with_symbol}
   - {t: '$$mdi:mouse-outline$$', s: '$$mdi:arrow-up$$', type: text_with_symbol}
   - {t: '$$mdi:mouse-scroll-wheel$$', s: '$$mdi:arrow-right-thin$$', type: text_with_symbol}
   - {t: '$$mdi:mouse-scroll-wheel$$', s: '$$mdi:arrow-up-thin$$', type: text_with_symbol}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - Ctrl
+  - Alt
+  - Gui
+  - Shift
+  - Studio Unlock
   - APP
   - {t: '$$mdi:mouse-outline$$', s: '$$mdi:arrow-left$$', type: text_with_symbol}
   - {t: '$$mdi:mouse-outline$$', s: '$$mdi:arrow-down$$', type: text_with_symbol}
   - {t: '$$mdi:mouse-outline$$', s: '$$mdi:arrow-right$$', type: text_with_symbol}
   - {t: '$$mdi:mouse-scroll-wheel$$', s: '$$mdi:arrow-down-thin$$', type: text_with_symbol}
   - ESC
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
   - BT CLR ALL
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
   - BT CLR
+  - $$mdi:redo$$
+  - $$mdi:content-paste$$
+  - $$mdi:content-copy$$
+  - $$mdi:content-cut$$
+  - $$mdi:undo$$
   - $$mdi:keyboard-return$$
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
@@ -208,14 +208,6 @@ combos:
 - p: [8, 9]
   k: $$mdi:backspace-reverse-outline$$
   l: [DEF]
-- p: [1, 0]
-  k: '&ind_bat'
-  l: [SYM]
-  a: top
-- p: [8, 9]
-  k: '&ind_con'
-  l: [SYM]
-  a: top
 - p: [12, 13]
   k: (
   l: [DEF]
@@ -243,23 +235,6 @@ combos:
 - p: [14, 15]
   k: {t: DEF, h: '$$mdi:toggle-switch$$'}
   l: [NUM, NAV]
-- p: [4, 5]
-  k: Lock
-  l: [SYM]
-  a: top
-- p: [3, 6]
-  k: Sleep
-  l: [SYM]
-  a: top
-  o: 0.25
-- p: [2, 7]
-  k: BAT Save
-  l: [SYM]
-  a: top
-  o: 0.4
-- p: [14, 15]
-  k: Studio Unlock
-  l: [SYM]
 - p: [2, 3]
   k: +
   l: [NUM]

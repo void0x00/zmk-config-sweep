@@ -24,7 +24,6 @@ COMBO(at,     &kp AT,      LT3 LT2,     DEF,          40, 150)
 COMBO(hash,   &kp HASH,    LT2 LT1,     DEF,          40, 150)
 COMBO(esc,    &kp ESC,     LT4 LT3,     DEF,          40, 150)
 COMBO(del,    &kp DEL,     RT3 RT4,     DEF,          40, 150)
-COMBO(del,    &kp DEL,     RT1 RT2 RT3, NUM,          40, 150)
 // COMBO(batt,   &ind_bat,    LT3 LT4,     SYM,          40, 150)
 // COMBO(conn,   &ind_con,    RT3 RT4,     SYM,          40, 150)
 
