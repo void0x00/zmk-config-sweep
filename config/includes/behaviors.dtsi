@@ -21,7 +21,7 @@
         aml: alpha_mods_l {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <210>;
             quick-tap-ms = <QUICK_TAP_MS>;
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
@@ -42,7 +42,7 @@
         amr: alpha_mods_r {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <210>;
             quick-tap-ms = <QUICK_TAP_MS>;
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
