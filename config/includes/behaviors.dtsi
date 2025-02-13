@@ -1,6 +1,6 @@
 #include <behaviors.dtsi>
 
-#define QUICK_TAP_MS 180
+#define QUICK_TAP_MS 175
 
 &mt {
     flavor = "hold-preferred";
@@ -27,7 +27,7 @@
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <KEYS_R THUMBS>;
             hold-trigger-on-release;
-            require-prior-idle-ms = <170>;
+            require-prior-idle-ms = <160>;
         };
         asl: alpha_shift_l {
             compatible = "zmk,behavior-hold-tap";
@@ -48,7 +48,7 @@
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <KEYS_L THUMBS>;
             hold-trigger-on-release;
-            require-prior-idle-ms = <170>;
+            require-prior-idle-ms = <160>;
         };
         asr: alpha_shift_r {
             compatible = "zmk,behavior-hold-tap";
